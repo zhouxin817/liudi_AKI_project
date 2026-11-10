@@ -1,0 +1,9 @@
+"CellGroup","Group","Freq"
+"Neutrophil","CTRL",50
+"PTEC","CTRL",1489
+"GEC","CTRL",895
+"PT","CTRL",3087
+"Neutrophil","AKI",407
+"PTEC","AKI",644
+"GEC","AKI",206
+"PT","AKI",1079

@@ -1,0 +1,14 @@
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+=== PTEC / GEC 箱线图统计核对(Wilcoxon, AKI vs CTRL) ===
+PTEC  count : CTRL mean = 74.450, AKI mean = 53.667, p = 0.1148
+GEC   count : CTRL mean = 44.750, AKI mean = 17.167, p = 0.02274
+PTEC  pct : CTRL mean = 7.052, AKI mean = 2.523, p = 0.0004944
+GEC   pct : CTRL mean = 3.821, AKI mean = 0.727, p = 0.0001362
+>>> 08_boxplot_style_stats.R 完成

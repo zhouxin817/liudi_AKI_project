@@ -1,0 +1,24 @@
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+=== 补充分析统计汇总 ===
+  population         metric n_AKI n_CTRL mean_AKI mean_CTRL median_AKI
+1 Neutrophil  Count (cells)    12     20  33.9167    2.5000    24.0000
+2 Neutrophil Percentage (%)    12     20   0.9790    0.2615     0.7012
+3       PTEC  Count (cells)    12     20  53.6667   74.4500    53.5000
+4       PTEC Percentage (%)    12     20   2.5227    7.0523     1.3961
+5        GEC  Count (cells)    12     20  17.1667   44.7500    15.5000
+6        GEC Percentage (%)    12     20   0.7267    3.8210     0.6245
+  median_CTRL  sd_AKI sd_CTRL   p_value
+1     1.00000 45.3581  2.8562 0.0014377
+2     0.09295  0.9933  0.3226 0.0052994
+3    78.50000 36.1872 36.4049 0.1147534
+4     6.42187  2.3609  3.2125 0.0004944
+5    32.00000 16.2583 35.5911 0.0227423
+6     2.86627  0.6562  2.4663 0.0001362
+>>> 07_supplementary_visuals.R 完成

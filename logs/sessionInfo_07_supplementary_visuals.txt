@@ -1,0 +1,44 @@
+=== 07_supplementary_visuals.R 运行时间 ===
+[1] "2026-11-10 11:31:34 CST"
+
+=== 统计汇总 ===
+# A tibble: 6 x 11
+  population metric       n_AKI n_CTRL mean_AKI mean_CTRL median_AKI median_CTRL
+  <chr>      <chr>        <int>  <int>    <dbl>     <dbl>      <dbl>       <dbl>
+1 Neutrophil Count (cell~    12     20   33.9       2.5       24          1     
+2 Neutrophil Percentage ~    12     20    0.979     0.262      0.701      0.0930
+3 PTEC       Count (cell~    12     20   53.7      74.4       53.5       78.5   
+4 PTEC       Percentage ~    12     20    2.52      7.05       1.40       6.42  
+5 GEC        Count (cell~    12     20   17.2      44.8       15.5       32     
+6 GEC        Percentage ~    12     20    0.727     3.82       0.625      2.87  
+# i 3 more variables: sd_AKI <dbl>, sd_CTRL <dbl>, p_value <dbl>
+
+=== sessionInfo ===
+R version 4.3.1 (2023-06-16)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Ubuntu 20.04.6 LTS
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/openblas-pthread/libblas.so.3 
+LAPACK: /usr/lib/x86_64-linux-gnu/openblas-pthread/liblapack.so.3;  LAPACK version 3.9.0
+
+locale:
+[1] C
+
+time zone: Asia/Shanghai
+tzcode source: system (glibc)
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] tidyr_1.3.2   ggplot2_3.5.2 dplyr_1.2.1  
+
+loaded via a namespace (and not attached):
+ [1] vctrs_0.7.3        cli_3.6.6          rlang_1.2.0        purrr_1.2.2       
+ [5] generics_0.1.4     textshaping_1.0.5  glue_1.8.1         labeling_0.4.3    
+ [9] ragg_1.5.0         scales_1.4.0       grid_4.3.1         tibble_3.3.1      
+[13] lifecycle_1.0.5    compiler_4.3.1     RColorBrewer_1.1-3 pkgconfig_2.0.3   
+[17] systemfonts_1.3.2  farver_2.1.2       R6_2.6.1           utf8_1.2.6        
+[21] dichromat_2.0-0.1  tidyselect_1.2.1   pillar_1.11.1      magrittr_2.0.5    
+[25] tools_4.3.1        withr_3.0.3        gtable_0.3.6      

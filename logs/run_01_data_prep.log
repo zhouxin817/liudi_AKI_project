@@ -1,0 +1,67 @@
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+>>> 加载 h5Seurat 数据 ...
+Validating h5Seurat file
+Warning: Cannot find assay SCT in the H5Seurat file
+Initializing RNA with data
+Adding counts for RNA
+Adding scale.data for RNA
+Adding variable feature information for RNA
+Adding reduction ref.umap
+Adding cell embeddings for ref.umap
+Adding miscellaneous information for ref.umap
+Adding command information
+Adding cell-level metadata
+Adding miscellaneous information
+Adding tool-specific results
+Warning messages:
+1: The `slot` argument of `GetAssayData()` is deprecated as of SeuratObject 5.0.0.
+i Please use the `layer` argument instead.
+i The deprecated feature was likely used in the SeuratDisk package.
+  Please report the issue at
+  <https://github.com/mojaveazure/seurat-disk/issues>. 
+2: The `slot` argument of `SetAssayData()` is deprecated as of SeuratObject 5.0.0.
+i Please use the `layer` argument instead.
+i The deprecated feature was likely used in the SeuratDisk package.
+  Please report the issue at
+  <https://github.com/mojaveazure/seurat-disk/issues>. 
+全部细胞数: 109741
+符合条件的细胞数: 7857
+
+=== 各细胞群体 × 分组细胞数 ===
+            
+             CTRL  AKI
+  Neutrophil   50  407
+  PTEC       1489  644
+  GEC         895  206
+  PT         3087 1079
+Warning: The default method for RunUMAP has changed from calling Python UMAP via reticulate to the R-native UWOT using the cosine metric
+To use Python UMAP via reticulate, set umap.method to 'umap-learn' and metric to 'correlation'
+This message will be shown once per session
+
+=== 聚类结果 × 目标细胞群体 ===
+    
+     Neutrophil PTEC  GEC   PT
+  0           0    2    0 1800
+  1           0    0    0 1135
+  2           0  877   15    0
+  3          10    8   21  751
+  4           0  661    4    0
+  5           0    5  546    0
+  6           0  513   36    1
+  7         422    0    1    1
+  8           0    0  348    0
+  9           1    0    0  315
+  10          0    0    1  112
+  11          0    3  101    1
+  12          0   64   28    0
+  13          0    0    0   50
+  14         24    0    0    0
+>>> 子集对象已保存 (含新 PCA / UMAP / 聚类结果)
+>>> 01_data_prep.R 完成

@@ -1,0 +1,24 @@
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+>>> 差异分析: PTEC
+PTEC 显著差异基因数(p_val_adj<0.05 & |log2FC|>0.25): 1006 
+>>> 差异分析: GEC
+GEC 显著差异基因数(p_val_adj<0.05 & |log2FC|>0.25): 342 
+>>> 差异分析: PT
+PT 显著差异基因数(p_val_adj<0.05 & |log2FC|>0.25): 3096 
+Warning messages:
+1: The `slot` argument of `GetAssayData()` is deprecated as of SeuratObject 5.0.0.
+i Please use the `layer` argument instead.
+i The deprecated feature was likely used in the Seurat package.
+  Please report the issue at <https://github.com/satijalab/seurat/issues>. 
+2: `PackageCheck()` was deprecated in SeuratObject 5.0.0.
+i Please use `rlang::check_installed()` instead.
+i The deprecated feature was likely used in the Seurat package.
+  Please report the issue at <https://github.com/satijalab/seurat/issues>. 
+>>> 04_deg_analysis.R 完成
