@@ -1,0 +1,159 @@
+"GOID","Description","direction","n_term","n_overlap","gene_ratio","odds_ratio","p_value","overlap_genes","p_adjust"
+"GO:0006120","mitochondrial electron transport, NADH to ubiquinone","Down_in_AKI",43,7,0.162790697674419,15.766783417349,9.56361466221049e-07,"MT-ND1/MT-ND2/MT-ND3/MT-ND4L/MT-ND5/MT-ND6/NDUFB9",5.96749780601391e-05
+"GO:0042776","proton motive force-driven mitochondrial ATP synthesis","Down_in_AKI",63,8,0.126984126984127,11.831352261335,1.13306920367353e-06,"MT-ATP8/MT-ND1/MT-ND2/MT-ND3/MT-ND4L/MT-ND5/MT-ND6/NDUFB9",5.96749780601391e-05
+"GO:0032981","mitochondrial respiratory chain complex I assembly","Down_in_AKI",39,4,0.102564102564103,9.16273933547171,0.00138320832617981,"MT-ND1/MT-ND2/MT-ND5/MT-ND6",0.0546367288841024
+"GO:0006123","mitochondrial electron transport, cytochrome c to oxygen","Down_in_AKI",20,3,0.15,14.1104287416588,0.00187175349486258,"COX7A1/COX7A2/MT-CO3",0.0591474104376575
+"GO:0000266","mitochondrial fission","Down_in_AKI",14,0,0,0,1,"",1
+"GO:0000422","autophagy of mitochondrion","Down_in_AKI",24,0,0,0,1,"",1
+"GO:0000957","mitochondrial RNA catabolic process","Down_in_AKI",5,0,0,0,1,"",1
+"GO:0000963","mitochondrial RNA processing","Down_in_AKI",6,0,0,0,1,"",1
+"GO:0001836","release of cytochrome c from mitochondria","Down_in_AKI",20,1,0.05,4.17635220224267,0.222173167384098,"MCL1",1
+"GO:0006121","mitochondrial electron transport, succinate to ubiquinone","Down_in_AKI",5,0,0,0,1,"",1
+"GO:0006122","mitochondrial electron transport, ubiquinol to cytochrome c","Down_in_AKI",13,1,0.0769230769230769,6.61410449141432,0.150652258689418,"MT-CYB",1
+"GO:0006264","mitochondrial DNA replication","Down_in_AKI",11,0,0,0,1,"",1
+"GO:0006390","mitochondrial transcription","Down_in_AKI",7,0,0,0,1,"",1
+"GO:0006839","mitochondrial transport","Down_in_AKI",11,0,0,0,1,"",1
+"GO:0006851","mitochondrial calcium ion transmembrane transport","Down_in_AKI",14,0,0,0,1,"",1
+"GO:0007005","mitochondrion organization","Down_in_AKI",85,1,0.0117647058823529,0.941905518042493,0.656802393864636,"CHCHD2",1
+"GO:0007006","mitochondrial membrane organization","Down_in_AKI",5,0,0,0,1,"",1
+"GO:0007007","inner mitochondrial membrane organization","Down_in_AKI",18,0,0,0,1,"",1
+"GO:0008053","mitochondrial fusion","Down_in_AKI",18,1,0.0555555555555556,4.66762891498684,0.202374126185148,"MCL1",1
+"GO:0008637","apoptotic mitochondrial changes","Down_in_AKI",9,0,0,0,1,"",1
+"GO:0010636","positive regulation of mitochondrial fusion","Down_in_AKI",5,0,0,0,1,"",1
+"GO:0010637","negative regulation of mitochondrial fusion","Down_in_AKI",8,0,0,0,1,"",1
+"GO:0010821","regulation of mitochondrion organization","Down_in_AKI",22,1,0.0454545454545455,3.77849136103048,0.241482535939573,"PDE2A",1
+"GO:0010917","negative regulation of mitochondrial membrane potential","Down_in_AKI",11,0,0,0,1,"",1
+"GO:0010918","positive regulation of mitochondrial membrane potential","Down_in_AKI",7,0,0,0,1,"",1
+"GO:0019896","axonal transport of mitochondrion","Down_in_AKI",14,0,0,0,1,"",1
+"GO:0030150","protein import into mitochondrial matrix","Down_in_AKI",25,1,0.04,3.30564954735936,0.269554766640522,"TOMM7",1
+"GO:0032543","mitochondrial translation","Down_in_AKI",93,0,0,0,1,"",1
+"GO:0032979","protein insertion into mitochondrial inner membrane from matrix","Down_in_AKI",5,0,0,0,1,"",1
+"GO:0033615","mitochondrial proton-transporting ATP synthase complex assembly","Down_in_AKI",8,0,0,0,1,"",1
+"GO:0033617","mitochondrial respiratory chain complex IV assembly","Down_in_AKI",27,1,0.037037037037037,3.05107847775964,0.287692098089393,"COX17",1
+"GO:0034551","mitochondrial respiratory chain complex III assembly","Down_in_AKI",11,0,0,0,1,"",1
+"GO:0034982","mitochondrial protein processing","Down_in_AKI",6,0,0,0,1,"",1
+"GO:0035694","mitochondrial protein catabolic process","Down_in_AKI",10,0,0,0,1,"",1
+"GO:0036444","calcium import into the mitochondrion","Down_in_AKI",13,0,0,0,1,"",1
+"GO:0042775","mitochondrial ATP synthesis coupled electron transport","Down_in_AKI",6,0,0,0,1,"",1
+"GO:0043504","mitochondrial DNA repair","Down_in_AKI",6,0,0,0,1,"",1
+"GO:0043653","mitochondrial fragmentation involved in apoptotic process","Down_in_AKI",12,0,0,0,1,"",1
+"GO:0044528","regulation of mitochondrial mRNA stability","Down_in_AKI",7,0,0,0,1,"",1
+"GO:0045039","protein insertion into mitochondrial inner membrane","Down_in_AKI",13,0,0,0,1,"",1
+"GO:0045040","protein insertion into mitochondrial outer membrane","Down_in_AKI",13,1,0.0769230769230769,6.61410449141432,0.150652258689418,"TOMM7",1
+"GO:0046902","regulation of mitochondrial membrane permeability","Down_in_AKI",13,0,0,0,1,"",1
+"GO:0047497","mitochondrion transport along microtubule","Down_in_AKI",7,0,0,0,1,"",1
+"GO:0048311","mitochondrion distribution","Down_in_AKI",6,0,0,0,1,"",1
+"GO:0048312","intracellular distribution of mitochondria","Down_in_AKI",6,0,0,0,1,"",1
+"GO:0051560","mitochondrial calcium ion homeostasis","Down_in_AKI",14,0,0,0,1,"",1
+"GO:0051561","positive regulation of mitochondrial calcium ion concentration","Down_in_AKI",9,0,0,0,1,"",1
+"GO:0051646","mitochondrion localization","Down_in_AKI",11,0,0,0,1,"",1
+"GO:0051881","regulation of mitochondrial membrane potential","Down_in_AKI",26,0,0,0,1,"",1
+"GO:0051901","positive regulation of mitochondrial depolarization","Down_in_AKI",8,0,0,0,1,"",1
+"GO:0051902","negative regulation of mitochondrial depolarization","Down_in_AKI",7,0,0,0,1,"",1
+"GO:0061668","mitochondrial ribosome assembly","Down_in_AKI",7,0,0,0,1,"",1
+"GO:0070129","regulation of mitochondrial translation","Down_in_AKI",6,0,0,0,1,"",1
+"GO:0070131","positive regulation of mitochondrial translation","Down_in_AKI",13,0,0,0,1,"",1
+"GO:0070585","protein localization to mitochondrion","Down_in_AKI",38,1,0.0263157894736842,2.14304168827704,0.37971681632154,"DNAJA1",1
+"GO:0070900","mitochondrial tRNA modification","Down_in_AKI",6,0,0,0,1,"",1
+"GO:0072656","maintenance of protein location in mitochondrion","Down_in_AKI",5,0,0,0,1,"",1
+"GO:0090140","regulation of mitochondrial fission","Down_in_AKI",6,0,0,0,1,"",1
+"GO:0090141","positive regulation of mitochondrial fission","Down_in_AKI",20,0,0,0,1,"",1
+"GO:0090200","positive regulation of release of cytochrome c from mitochondria","Down_in_AKI",23,0,0,0,1,"",1
+"GO:0090201","negative regulation of release of cytochrome c from mitochondria","Down_in_AKI",18,1,0.0555555555555556,4.66762891498684,0.202374126185148,"GPX1",1
+"GO:0090258","negative regulation of mitochondrial fission","Down_in_AKI",5,0,0,0,1,"",1
+"GO:0097250","mitochondrial respirasome assembly","Down_in_AKI",9,1,0.111111111111111,9.92305535719348,0.10687967360637,"COX7A1",1
+"GO:0097345","mitochondrial outer membrane permeabilization","Down_in_AKI",6,0,0,0,1,"",1
+"GO:0098780","response to mitochondrial depolarisation","Down_in_AKI",6,0,0,0,1,"",1
+"GO:0120317","sperm mitochondrial sheath assembly","Down_in_AKI",7,0,0,0,1,"",1
+"GO:0140021","mitochondrial ADP transmembrane transport","Down_in_AKI",5,0,0,0,1,"",1
+"GO:0180026","mitochondrial small ribosomal subunit assembly","Down_in_AKI",8,0,0,0,1,"",1
+"GO:1901029","negative regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway","Down_in_AKI",10,1,0.1,8.81924214618956,0.118029116846239,"MPV17L",1
+"GO:1901030","positive regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway","Down_in_AKI",8,0,0,0,1,"",1
+"GO:1902775","mitochondrial large ribosomal subunit assembly","Down_in_AKI",15,0,0,0,1,"",1
+"GO:1903108","regulation of mitochondrial transcription","Down_in_AKI",6,0,0,0,1,"",1
+"GO:1903146","regulation of autophagy of mitochondrion","Down_in_AKI",6,0,0,0,1,"",1
+"GO:1903747","regulation of protein localization to mitochondrion","Down_in_AKI",8,0,0,0,1,"",1
+"GO:1903748","negative regulation of protein localization to mitochondrion","Down_in_AKI",7,1,0.142857142857143,13.2287154006154,0.0841577857494149,"DNAJA1",1
+"GO:1903749","positive regulation of protein localization to mitochondrion","Down_in_AKI",34,2,0.0588235294117647,4.97467299080249,0.067032060010848,"RHOU/TOMM7",1
+"GO:1990456","mitochondrion-endoplasmic reticulum membrane tethering","Down_in_AKI",7,0,0,0,1,"",1
+"GO:1990542","mitochondrial transmembrane transport","Down_in_AKI",11,0,0,0,1,"",1
+"GO:1990544","mitochondrial ATP transmembrane transport","Down_in_AKI",8,0,0,0,1,"",1
+"GO:0042776","proton motive force-driven mitochondrial ATP synthesis","Up_in_AKI",63,12,0.19047619047619,10.3010140408763,1.61540705477639e-08,"ATP5F1A/ATP5F1B/ATP5F1C/ATP5F1D/ATP5F1E/ATP5ME/ATP5MF/ATP5MG/ATP5PB/ATP5PF/ATP5PO/NDUFB8",2.5523431465467e-06
+"GO:0034551","mitochondrial respiratory chain complex III assembly","Up_in_AKI",11,2,0.181818181818182,9.54553643167883,0.0249305161951366,"STMP1/UQCC3",0.656503593138597
+"GO:0006122","mitochondrial electron transport, ubiquinol to cytochrome c","Up_in_AKI",13,2,0.153846153846154,7.81396628878171,0.0343120594155103,"UQCC3/UQCR11",0.774472198235803
+"GO:0000266","mitochondrial fission","Up_in_AKI",14,0,0,0,1,"",1
+"GO:0000422","autophagy of mitochondrion","Up_in_AKI",24,0,0,0,1,"",1
+"GO:0000957","mitochondrial RNA catabolic process","Up_in_AKI",5,0,0,0,1,"",1
+"GO:0000963","mitochondrial RNA processing","Up_in_AKI",6,0,0,0,1,"",1
+"GO:0001836","release of cytochrome c from mitochondria","Up_in_AKI",20,0,0,0,1,"",1
+"GO:0006120","mitochondrial electron transport, NADH to ubiquinone","Up_in_AKI",43,1,0.0232558139534884,1.01982066349174,0.629683423123852,"NDUFB8",1
+"GO:0006121","mitochondrial electron transport, succinate to ubiquinone","Up_in_AKI",5,0,0,0,1,"",1
+"GO:0006123","mitochondrial electron transport, cytochrome c to oxygen","Up_in_AKI",20,0,0,0,1,"",1
+"GO:0006264","mitochondrial DNA replication","Up_in_AKI",11,0,0,0,1,"",1
+"GO:0006390","mitochondrial transcription","Up_in_AKI",7,0,0,0,1,"",1
+"GO:0006839","mitochondrial transport","Up_in_AKI",11,0,0,0,1,"",1
+"GO:0006851","mitochondrial calcium ion transmembrane transport","Up_in_AKI",14,1,0.0714285714285714,3.29898618438841,0.276178542005921,"MCUB",1
+"GO:0007005","mitochondrion organization","Up_in_AKI",85,3,0.0352941176470588,1.57040096822213,0.306646001693709,"MARCKS/NIPSNAP2/RAB29",1
+"GO:0007006","mitochondrial membrane organization","Up_in_AKI",5,0,0,0,1,"",1
+"GO:0007007","inner mitochondrial membrane organization","Up_in_AKI",18,2,0.111111111111111,5.37017252559198,0.0624785458314155,"MICOS10/MICOS13",1
+"GO:0008053","mitochondrial fusion","Up_in_AKI",18,1,0.0555555555555556,2.52238110661568,0.340052873651722,"RCC1L",1
+"GO:0008637","apoptotic mitochondrial changes","Up_in_AKI",9,0,0,0,1,"",1
+"GO:0010636","positive regulation of mitochondrial fusion","Up_in_AKI",5,0,0,0,1,"",1
+"GO:0010637","negative regulation of mitochondrial fusion","Up_in_AKI",8,0,0,0,1,"",1
+"GO:0010821","regulation of mitochondrion organization","Up_in_AKI",22,0,0,0,1,"",1
+"GO:0010917","negative regulation of mitochondrial membrane potential","Up_in_AKI",11,0,0,0,1,"",1
+"GO:0010918","positive regulation of mitochondrial membrane potential","Up_in_AKI",7,1,0.142857142857143,7.1483862707325,0.149200353005337,"MTLN",1
+"GO:0019896","axonal transport of mitochondrion","Up_in_AKI",14,1,0.0714285714285714,3.29898618438841,0.276178542005921,"HIF1A",1
+"GO:0030150","protein import into mitochondrial matrix","Up_in_AKI",25,0,0,0,1,"",1
+"GO:0032543","mitochondrial translation","Up_in_AKI",93,0,0,0,1,"",1
+"GO:0032979","protein insertion into mitochondrial inner membrane from matrix","Up_in_AKI",5,0,0,0,1,"",1
+"GO:0032981","mitochondrial respiratory chain complex I assembly","Up_in_AKI",39,1,0.0256410256410256,1.12737363727434,0.59379730337446,"NDUFAF8",1
+"GO:0033615","mitochondrial proton-transporting ATP synthase complex assembly","Up_in_AKI",8,1,0.125,6.12777829865979,0.168617764604191,"ATP5F1D",1
+"GO:0033617","mitochondrial respiratory chain complex IV assembly","Up_in_AKI",27,2,0.0740740740740741,3.43600651517721,0.125608199044324,"COA8/STMP1",1
+"GO:0034982","mitochondrial protein processing","Up_in_AKI",6,0,0,0,1,"",1
+"GO:0035694","mitochondrial protein catabolic process","Up_in_AKI",10,0,0,0,1,"",1
+"GO:0036444","calcium import into the mitochondrion","Up_in_AKI",13,1,0.0769230769230769,3.57395318839323,0.259268438333894,"MCUB",1
+"GO:0042775","mitochondrial ATP synthesis coupled electron transport","Up_in_AKI",6,0,0,0,1,"",1
+"GO:0043504","mitochondrial DNA repair","Up_in_AKI",6,0,0,0,1,"",1
+"GO:0043653","mitochondrial fragmentation involved in apoptotic process","Up_in_AKI",12,0,0,0,1,"",1
+"GO:0044528","regulation of mitochondrial mRNA stability","Up_in_AKI",7,0,0,0,1,"",1
+"GO:0045039","protein insertion into mitochondrial inner membrane","Up_in_AKI",13,0,0,0,1,"",1
+"GO:0045040","protein insertion into mitochondrial outer membrane","Up_in_AKI",13,1,0.0769230769230769,3.57395318839323,0.259268438333894,"TOMM6",1
+"GO:0046902","regulation of mitochondrial membrane permeability","Up_in_AKI",13,0,0,0,1,"",1
+"GO:0047497","mitochondrion transport along microtubule","Up_in_AKI",7,0,0,0,1,"",1
+"GO:0048311","mitochondrion distribution","Up_in_AKI",6,0,0,0,1,"",1
+"GO:0048312","intracellular distribution of mitochondria","Up_in_AKI",6,0,0,0,1,"",1
+"GO:0051560","mitochondrial calcium ion homeostasis","Up_in_AKI",14,1,0.0714285714285714,3.29898618438841,0.276178542005921,"MCUB",1
+"GO:0051561","positive regulation of mitochondrial calcium ion concentration","Up_in_AKI",9,1,0.111111111111111,5.36126023548896,0.187592905288151,"TGM2",1
+"GO:0051646","mitochondrion localization","Up_in_AKI",11,0,0,0,1,"",1
+"GO:0051881","regulation of mitochondrial membrane potential","Up_in_AKI",26,1,0.0384615384615385,1.71462106248575,0.451417667740043,"RTL10",1
+"GO:0051901","positive regulation of mitochondrial depolarization","Up_in_AKI",8,1,0.125,6.12777829865979,0.168617764604191,"RACK1",1
+"GO:0051902","negative regulation of mitochondrial depolarization","Up_in_AKI",7,0,0,0,1,"",1
+"GO:0061668","mitochondrial ribosome assembly","Up_in_AKI",7,1,0.142857142857143,7.1483862707325,0.149200353005337,"RCC1L",1
+"GO:0070129","regulation of mitochondrial translation","Up_in_AKI",6,0,0,0,1,"",1
+"GO:0070131","positive regulation of mitochondrial translation","Up_in_AKI",13,0,0,0,1,"",1
+"GO:0070585","protein localization to mitochondrion","Up_in_AKI",38,0,0,0,1,"",1
+"GO:0070900","mitochondrial tRNA modification","Up_in_AKI",6,0,0,0,1,"",1
+"GO:0072656","maintenance of protein location in mitochondrion","Up_in_AKI",5,0,0,0,1,"",1
+"GO:0090140","regulation of mitochondrial fission","Up_in_AKI",6,0,0,0,1,"",1
+"GO:0090141","positive regulation of mitochondrial fission","Up_in_AKI",20,0,0,0,1,"",1
+"GO:0090200","positive regulation of release of cytochrome c from mitochondria","Up_in_AKI",23,1,0.0434782608695652,1.94870393891637,0.412042936952043,"TNFSF10",1
+"GO:0090201","negative regulation of release of cytochrome c from mitochondria","Up_in_AKI",18,0,0,0,1,"",1
+"GO:0090258","negative regulation of mitochondrial fission","Up_in_AKI",5,0,0,0,1,"",1
+"GO:0097250","mitochondrial respirasome assembly","Up_in_AKI",9,1,0.111111111111111,5.36126023548896,0.187592905288151,"STMP1",1
+"GO:0097345","mitochondrial outer membrane permeabilization","Up_in_AKI",6,1,0.166666666666667,8.57914143877003,0.129330383650808,"RTL10",1
+"GO:0098780","response to mitochondrial depolarisation","Up_in_AKI",6,0,0,0,1,"",1
+"GO:0120317","sperm mitochondrial sheath assembly","Up_in_AKI",7,0,0,0,1,"",1
+"GO:0140021","mitochondrial ADP transmembrane transport","Up_in_AKI",5,0,0,0,1,"",1
+"GO:0180026","mitochondrial small ribosomal subunit assembly","Up_in_AKI",8,1,0.125,6.12777829865979,0.168617764604191,"RCC1L",1
+"GO:1901029","negative regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway","Up_in_AKI",10,0,0,0,1,"",1
+"GO:1901030","positive regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway","Up_in_AKI",8,0,0,0,1,"",1
+"GO:1902775","mitochondrial large ribosomal subunit assembly","Up_in_AKI",15,1,0.0666666666666667,3.06321185459701,0.292703376111922,"RCC1L",1
+"GO:1903108","regulation of mitochondrial transcription","Up_in_AKI",6,0,0,0,1,"",1
+"GO:1903146","regulation of autophagy of mitochondrion","Up_in_AKI",6,0,0,0,1,"",1
+"GO:1903747","regulation of protein localization to mitochondrion","Up_in_AKI",8,1,0.125,6.12777829865979,0.168617764604191,"ATP5IF1",1
+"GO:1903748","negative regulation of protein localization to mitochondrion","Up_in_AKI",7,0,0,0,1,"",1
+"GO:1903749","positive regulation of protein localization to mitochondrion","Up_in_AKI",34,0,0,0,1,"",1
+"GO:1990456","mitochondrion-endoplasmic reticulum membrane tethering","Up_in_AKI",7,0,0,0,1,"",1
+"GO:1990542","mitochondrial transmembrane transport","Up_in_AKI",11,0,0,0,1,"",1
+"GO:1990544","mitochondrial ATP transmembrane transport","Up_in_AKI",8,0,0,0,1,"",1

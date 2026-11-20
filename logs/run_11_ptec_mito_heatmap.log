@@ -1,0 +1,13 @@
+/bin/sed: /home/zhouxin/.trae-cn-server/bin/stable-28d26af97a603c458001613c87d6f16fc6098d0a-debian10/modules/ai-agent/libselinux.so.1: no version information available (required by /bin/sed)
+/bin/sed: /home/zhouxin/.trae-cn-server/bin/stable-28d26af97a603c458001613c87d6f16fc6098d0a-debian10/modules/ai-agent/libselinux.so.1: no version information available (required by /bin/sed)
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+'select()' returned 1:many mapping between keys and columns
+TOP50 基因数: 50 ; Up: 25 ; Down: 25 
+>>> 11_ptec_mito_heatmap.R 完成

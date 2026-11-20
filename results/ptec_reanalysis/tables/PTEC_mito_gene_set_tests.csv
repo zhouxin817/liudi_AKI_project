@@ -1,0 +1,9 @@
+"gene_set","direction","n_set","n_degs","n_overlap","odds_ratio","p_value"
+"Mitochondrial ATP synthesis (GO:0042776)","Up_in_AKI",67,490,13,10.558412296935,3.19883862295597e-09
+"Oxidative phosphorylation (GO:0006119)","Down_in_AKI",130,268,13,9.18684311358627,9.5014262843617e-09
+"Oxidative phosphorylation (GO:0006119)","Up_in_AKI",130,490,15,5.73030542771963,2.91879612282079e-07
+"Mitochondrial ATP synthesis (GO:0042776)","Down_in_AKI",67,268,8,11.0245040874732,1.82781568621033e-06
+"Mitochondrion (GO:0005739)","Down_in_AKI",1696,268,36,1.82728599762384,0.00120784527158873
+"Mitochondrion (GO:0005739)","Up_in_AKI",1696,490,55,1.49053893956836,0.00523317830836822
+"Mitochondrial translation (GO:0032543)","Up_in_AKI",127,490,0,0,1
+"Mitochondrial translation (GO:0032543)","Down_in_AKI",127,268,0,0,1

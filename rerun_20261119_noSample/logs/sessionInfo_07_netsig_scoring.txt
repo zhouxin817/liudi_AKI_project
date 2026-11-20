@@ -1,0 +1,168 @@
+=== 07_netsig_scoring.R 运行时间 ===
+[1] "2026-11-20 09:50:01 CST"
+
+=== 中性粒细胞构成 ===
+
+CTRL  AKI 
+  15  344 
+
+=== 子模块基因数 ===
+Granule / NET effectors  Cytokines / chemokines    Receptors / adhesion 
+                      7                       7                      14 
+    Upstream signalling 
+                     10 
+
+=== 检验结果 ===
+                                             score n_genes mean_CTRL_cell
+                        Total NET score (38 genes)      38         0.0639
+Granule / NET effectors    Granule / NET effectors       7         0.0738
+Cytokines / chemokines      Cytokines / chemokines       7         0.2510
+Receptors / adhesion          Receptors / adhesion      14         0.0120
+Upstream signalling            Upstream signalling      10        -0.0207
+                        mean_AKI_cell p_cell mean_CTRL_sample mean_AKI_sample
+                              0.03563  0.383         0.033519         0.00819
+Granule / NET effectors       0.05138  0.528         0.105975         0.05895
+Cytokines / chemokines        0.11656  0.407         0.094006         0.08557
+Receptors / adhesion         -0.00726  0.634        -0.000145        -0.05486
+Upstream signalling           0.00700  0.725        -0.019354        -0.01329
+                        p_sample direction_cell direction_sample
+                           0.626 Higher in CTRL   Higher in CTRL
+Granule / NET effectors    0.330 Higher in CTRL   Higher in CTRL
+Cytokines / chemokines     0.516 Higher in CTRL   Higher in CTRL
+Receptors / adhesion       0.417 Higher in CTRL   Higher in CTRL
+Upstream signalling        0.516  Higher in AKI    Higher in AKI
+
+=== 单基因统计 ===
+       gene                  module   avg_log2FC        p_val    p_val_adj
+1      AKT1     Upstream signalling  -0.92294939 1.997153e-02 1.000000e+00
+2      AKT2     Upstream signalling   0.13291625 5.838233e-01 1.000000e+00
+3      ATG7     Upstream signalling  -0.51639473 3.719592e-01 1.000000e+00
+4    CLEC6A    Receptors / adhesion  -2.13574879 8.454743e-01 1.000000e+00
+5      CSF3  Cytokines / chemokines  -4.51937416 1.000000e+00 1.000000e+00
+6      CTSG Granule / NET effectors  -2.63954626 8.454743e-01 1.000000e+00
+7      CYBB Granule / NET effectors  -0.13244839 7.848856e-01 1.000000e+00
+8    DNASE1 Granule / NET effectors  -4.88605084 3.327095e-04 1.000000e+00
+9     ELANE Granule / NET effectors  -4.51937416 1.000000e+00 1.000000e+00
+10   ENTPD4    Receptors / adhesion  -0.76920181 7.907620e-01 1.000000e+00
+11       F3    Receptors / adhesion  -2.32481127 8.454743e-01 1.000000e+00
+12    HMGB1  Cytokines / chemokines  -0.42429578 2.707664e-01 1.000000e+00
+13    IL17A  Cytokines / chemokines  -4.51937416 1.000000e+00 1.000000e+00
+14     IL1B  Cytokines / chemokines   0.09908069 6.582487e-01 1.000000e+00
+15      IL6  Cytokines / chemokines  -0.49827378 6.800481e-01 1.000000e+00
+16      IL8  Cytokines / chemokines -11.19389986 7.187724e-22 2.665208e-17
+17    IRAK4     Upstream signalling   2.27384808 2.615191e-01 1.000000e+00
+18    ITGAM    Receptors / adhesion  -0.40875821 7.333638e-01 1.000000e+00
+19    ITGB2    Receptors / adhesion   0.03702092 9.845918e-01 1.000000e+00
+20    KCNN3    Receptors / adhesion  -4.51937416 1.000000e+00 1.000000e+00
+21    MAPK1     Upstream signalling   1.78721844 4.118664e-01 1.000000e+00
+22    MAPK3     Upstream signalling   2.20380830 2.261269e-01 1.000000e+00
+23     MMP9 Granule / NET effectors   1.93004576 5.065289e-01 1.000000e+00
+24      MPO Granule / NET effectors  -1.30838365 8.454743e-01 1.000000e+00
+25     MTOR     Upstream signalling  -0.36979281 6.105008e-01 1.000000e+00
+26    PADI4 Granule / NET effectors   0.08681134 6.431602e-01 1.000000e+00
+27    PTAFR    Receptors / adhesion   0.29722202 6.048252e-01 1.000000e+00
+28   PIK3CA     Upstream signalling  -0.45899412 3.977696e-01 1.000000e+00
+29    RIPK1     Upstream signalling  -0.85665559 1.322769e-01 1.000000e+00
+30    RIPK3     Upstream signalling   1.69109773 3.956093e-01 1.000000e+00
+31     SELP    Receptors / adhesion  -2.95211528 8.454743e-01 1.000000e+00
+32   SELPLG    Receptors / adhesion   1.49582129 3.763779e-01 1.000000e+00
+33 SIGLEC14    Receptors / adhesion  -2.92818800 5.284329e-02 1.000000e+00
+34     TLR2    Receptors / adhesion   0.18277033 7.538020e-01 1.000000e+00
+35     TLR4    Receptors / adhesion  -0.16589620 1.000000e+00 1.000000e+00
+36     TLR7    Receptors / adhesion   1.44154192 4.115758e-01 1.000000e+00
+37     TLR8    Receptors / adhesion   0.28639943 8.697513e-01 1.000000e+00
+38      TNF  Cytokines / chemokines   2.30536001 4.284136e-01 1.000000e+00
+   pct_AKI pct_CTRL in_data significant
+1    0.078    0.267    TRUE          no
+2    0.084    0.133    TRUE          no
+3    0.067    0.133    TRUE          no
+4    0.003    0.000    TRUE          no
+5    0.000    0.000    TRUE          no
+6    0.003    0.000    TRUE          no
+7    0.622    0.667    TRUE          no
+8    0.012    0.133    TRUE          no
+9    0.000    0.000    TRUE          no
+10   0.052    0.067    TRUE          no
+11   0.003    0.000    TRUE          no
+12   0.564    0.667    TRUE          no
+13   0.000    0.000    TRUE          no
+14   0.497    0.467    TRUE          no
+15   0.012    0.000    TRUE          no
+16   0.000    0.267    TRUE         yes
+17   0.078    0.000    TRUE          no
+18   0.230    0.267    TRUE          no
+19   0.698    0.867    TRUE          no
+20   0.000    0.000    TRUE          no
+21   0.131    0.067    TRUE          no
+22   0.090    0.000    TRUE          no
+23   0.029    0.000    TRUE          no
+24   0.003    0.000    TRUE          no
+25   0.017    0.000    TRUE          no
+26   0.015    0.000    TRUE          no
+27   0.134    0.200    TRUE          no
+28   0.070    0.133    TRUE          no
+29   0.015    0.067    TRUE          no
+30   0.047    0.000    TRUE          no
+31   0.003    0.000    TRUE          no
+32   0.142    0.067    TRUE          no
+33   0.035    0.133    TRUE          no
+34   0.157    0.200    TRUE          no
+35   0.137    0.133    TRUE          no
+36   0.044    0.000    TRUE          no
+37   0.076    0.067    TRUE          no
+38   0.041    0.000    TRUE          no
+
+=== sessionInfo ===
+R version 4.6.2 (2026-10-29)
+Platform: x86_64-pc-linux-gnu
+Running under: Ubuntu 22.04.5 LTS
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/openblas-pthread/libblas.so.3 
+LAPACK: /usr/lib/x86_64-linux-gnu/openblas-pthread/libopenblasp-r0.3.20.so;  LAPACK version 3.10.0
+
+locale:
+[1] C
+
+time zone: Asia/Shanghai
+tzcode source: system (glibc)
+
+attached base packages:
+[1] grid      stats     graphics  grDevices utils     datasets  methods  
+[8] base     
+
+other attached packages:
+[1] circlize_0.4.18       ComplexHeatmap_2.28.0 ggplot2_4.0.4        
+[4] tidyr_1.3.2           dplyr_1.2.1           Seurat_6.0.0.9000    
+[7] SeuratObject_5.4.0    sp_2.2-4             
+
+loaded via a namespace (and not attached):
+ [1] tidyselect_1.2.1    farver_2.1.2        S7_0.2.2           
+ [4] RANN_2.6.3          digest_0.6.39       dotCall64_1.2      
+ [7] lifecycle_1.0.5     cluster_2.1.8.3     Cairo_1.7-0        
+[10] magrittr_2.0.5      compiler_4.6.2      rlang_1.3.0        
+[13] tools_4.6.2         igraph_2.3.4        labeling_0.4.3     
+[16] plyr_1.8.9          RColorBrewer_1.1-3  KernSmooth_2.23-20 
+[19] Rtsne_0.17          withr_3.0.3         purrr_1.2.2        
+[22] BiocGenerics_0.58.1 stats4_4.6.2        RcppHNSW_0.7.0     
+[25] fastDummies_1.7.6   colorspace_2.1-4    future_1.82.0      
+[28] progressr_1.1.0     globals_0.20.0      scales_1.4.0       
+[31] iterators_1.0.14    MASS_7.3-66         ggridges_0.5.7     
+[34] cli_3.6.6           crayon_1.5.3        ragg_1.5.2         
+[37] generics_0.1.4      ica_1.0-3           future.apply_1.21.0
+[40] RSpectra_0.16-2     sctransform_0.4.3   httr_1.4.9         
+[43] reshape2_1.4.5      rjson_0.2.23        pbapply_1.7-5      
+[46] stringr_1.6.0       parallel_4.6.2      matrixStats_1.5.0  
+[49] vctrs_0.7.3         Matrix_1.7-6        jsonlite_2.0.0     
+[52] IRanges_2.46.0      GetoptLong_1.1.1    patchwork_1.3.2    
+[55] S4Vectors_0.50.3    ggrepel_0.9.8       clue_0.3-68        
+[58] irlba_2.4.1         scattermore_1.2     listenv_1.1.0      
+[61] magick_2.9.1        systemfonts_1.3.2   foreach_1.5.2      
+[64] pls_2.9-0           glue_1.8.1          parallelly_1.50.0  
+[67] spam_2.11-4         codetools_0.2-18    cowplot_1.2.0      
+[70] uwot_0.2.5          shape_1.4.6.1       RcppAnnoy_0.0.23   
+[73] stringi_1.8.9       gtable_0.3.6        tibble_3.3.1       
+[76] pillar_1.11.1       R6_2.6.1            textshaping_1.0.5  
+[79] doParallel_1.0.17   lattice_0.20-45     png_0.1-9          
+[82] Rcpp_1.1.2          gridExtra_2.3.1     pkgconfig_2.0.3    
+[85] GlobalOptions_0.1.4

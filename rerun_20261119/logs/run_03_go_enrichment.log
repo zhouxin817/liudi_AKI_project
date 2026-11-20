@@ -1,0 +1,69 @@
+/bin/sed: /home/zhouxin/.trae-cn-server/bin/stable-28d26af97a603c458001613c87d6f16fc6098d0a-debian10/modules/ai-agent/libselinux.so.1: no version information available (required by /bin/sed)
+/bin/sed: /home/zhouxin/.trae-cn-server/bin/stable-28d26af97a603c458001613c87d6f16fc6098d0a-debian10/modules/ai-agent/libselinux.so.1: no version information available (required by /bin/sed)
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+'select()' returned 1:many mapping between keys and columns
+Neutrophil : sig = 139   Up: 3   Down: 136 
+  GO(BP) entries: 25 (Up: 0  Down: 25 )
+PTEC : sig = 886   Up: 535   Down: 351 
+  GO(BP) entries: 413 (Up: 241  Down: 172 )
+GEC : sig = 316   Up: 93   Down: 223 
+  GO(BP) entries: 108 (Up: 35  Down: 73 )
+PT : sig = 2576   Up: 1968   Down: 608 
+  GO(BP) entries: 551 (Up: 293  Down: 258 )
+Warning message:
+In do_enrich(up_ids, "Up_in_AKI") :
+  Neutrophil: Up_in_AKI基因 entrez 不足, 跳过富集
+
+废弃 GO 条目数: 0 (已在富集输出中自动剔除)
+'select()' returned 1:many mapping between keys and columns
+
+=== PTEC 线粒体 Fisher 检验 ===
+                                  label odds_ratio      p_value p_adj_fisher
+odds ratio...1  PTEC Up in AKI  vs mito   2.235492 7.506626e-07 1.501325e-06
+odds ratio...2 PTEC Down in AKI vs mito   1.331753 1.285692e-01 1.285692e-01
+
+PTEC BP 富集中的线粒体相关条目: 11 
+                  direction
+GO:0019646      Down_in_AKI
+GO:0042773      Down_in_AKI
+GO:0042775      Down_in_AKI
+GO:0006119...4  Down_in_AKI
+GO:0022904      Down_in_AKI
+GO:0022900      Down_in_AKI
+GO:0042776...7  Down_in_AKI
+GO:0006120      Down_in_AKI
+GO:0032981      Down_in_AKI
+GO:0042776...10   Up_in_AKI
+GO:0006119...11   Up_in_AKI
+                                                           Description
+GO:0019646                            aerobic electron transport chain
+GO:0042773                    ATP synthesis coupled electron transport
+GO:0042775      mitochondrial ATP synthesis coupled electron transport
+GO:0006119...4                               oxidative phosphorylation
+GO:0022904                        respiratory electron transport chain
+GO:0022900                                    electron transport chain
+GO:0042776...7  proton motive force-driven mitochondrial ATP synthesis
+GO:0006120        mitochondrial electron transport, NADH to ubiquinone
+GO:0032981          mitochondrial respiratory chain complex I assembly
+GO:0042776...10 proton motive force-driven mitochondrial ATP synthesis
+GO:0006119...11                              oxidative phosphorylation
+                    p.adjust
+GO:0019646      3.470684e-05
+GO:0042773      4.988414e-05
+GO:0042775      4.988414e-05
+GO:0006119...4  1.208477e-04
+GO:0022904      1.665471e-04
+GO:0022900      2.645975e-04
+GO:0042776...7  3.717226e-04
+GO:0006120      5.090085e-04
+GO:0032981      1.373629e-02
+GO:0042776...10 6.839129e-07
+GO:0006119...11 4.602308e-05
+>>> 03_go_enrichment.R 完成

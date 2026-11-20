@@ -1,0 +1,28 @@
+/bin/sed: /home/zhouxin/.trae-cn-server/bin/stable-28d26af97a603c458001613c87d6f16fc6098d0a-debian10/modules/ai-agent/libselinux.so.1: no version information available (required by /bin/sed)
+/bin/sed: /home/zhouxin/.trae-cn-server/bin/stable-28d26af97a603c458001613c87d6f16fc6098d0a-debian10/modules/ai-agent/libselinux.so.1: no version information available (required by /bin/sed)
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+>>> 差异分析: Neutrophil
+For a (much!) faster implementation of the Wilcoxon Rank Sum Test,
+(default method for FindMarkers) please install the presto package
+--------------------------------------------
+install.packages('devtools')
+devtools::install_github('immunogenomics/presto')
+--------------------------------------------
+After installation of presto, Seurat will automatically use the more 
+efficient implementation (no further action necessary).
+This message will be shown once per session
+Neutrophil : 总基因 37080   Up: 3   Down: 136 
+>>> 差异分析: PTEC
+PTEC : 总基因 37080   Up: 535   Down: 351 
+>>> 差异分析: GEC
+GEC : 总基因 37080   Up: 93   Down: 223 
+>>> 差异分析: PT
+PT : 总基因 37080   Up: 1968   Down: 608 
+>>> 02_deg_analysis.R 完成

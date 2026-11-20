@@ -1,0 +1,91 @@
+=== 06_nets_scoring.R 运行时间 ===
+[1] "2026-11-19 16:27:21 CST"
+
+=== 中性粒细胞构成 ===
+
+CTRL  AKI 
+  35  344 
+
+=== 样本构成 ===
+
+CTRL  AKI 
+  12    7 
+
+=== 检验结果 ===
+                                        comparison   unit n_CTRL n_AKI
+1                 Cell level: NETs score (7 genes)   cell     35   344
+2        Cell level: NETs score (6 genes, -S100A9)   cell     35   344
+3          Cell level: mean gene z-score (7 genes)   cell     35   344
+4          Sample level: mean NETs score (7 genes) sample     12     7
+5 Sample level: mean NETs score (6 genes, -S100A9) sample     12     7
+      mean_CTRL     mean_AKI   p_value      direction
+1  0.6052417726  0.574173872 0.4826413 Higher in CTRL
+2  0.0243853515  0.018575952 0.6333993 Higher in CTRL
+3  0.0119590460 -0.001216763 0.6219115 Higher in CTRL
+4  0.5699477971  0.640089584 0.9662933  Higher in AKI
+5 -0.0007136207  0.056077761 0.8326621  Higher in AKI
+
+=== 单基因统计 ===
+    gene in_data  avg_log2FC     p_val p_val_adj pct_AKI pct_CTRL significant
+1  PADI4    TRUE  1.30920377 0.4758871         1   0.015    0.000          no
+2  ELANE    TRUE -3.29698174 1.0000000         1   0.000    0.000          no
+3    MPO    TRUE -0.08599123 0.7566673         1   0.003    0.000          no
+4   CYBB    TRUE  0.04713988 0.8257098         1   0.622    0.714          no
+5 S100A9    TRUE -0.34414152 0.1501672         1   1.000    1.000          no
+6  HMGB1    TRUE -0.22125105 0.2083362         1   0.564    0.686          no
+7  GSDMD    TRUE  1.39078309 0.2365182         1   0.183    0.114          no
+
+=== sessionInfo ===
+R version 4.6.2 (2026-10-29)
+Platform: x86_64-pc-linux-gnu
+Running under: Ubuntu 22.04.5 LTS
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/openblas-pthread/libblas.so.3 
+LAPACK: /usr/lib/x86_64-linux-gnu/openblas-pthread/libopenblasp-r0.3.20.so;  LAPACK version 3.10.0
+
+locale:
+[1] C
+
+time zone: Asia/Shanghai
+tzcode source: system (glibc)
+
+attached base packages:
+[1] grid      stats     graphics  grDevices utils     datasets  methods  
+[8] base     
+
+other attached packages:
+[1] circlize_0.4.18       ComplexHeatmap_2.28.0 ggplot2_4.0.4        
+[4] tidyr_1.3.2           dplyr_1.2.1           Seurat_6.0.0.9000    
+[7] SeuratObject_5.4.0    sp_2.2-4             
+
+loaded via a namespace (and not attached):
+ [1] tidyselect_1.2.1    farver_2.1.2        S7_0.2.2           
+ [4] RANN_2.6.3          digest_0.6.39       dotCall64_1.2      
+ [7] lifecycle_1.0.5     cluster_2.1.8.3     Cairo_1.7-0        
+[10] magrittr_2.0.5      compiler_4.6.2      rlang_1.3.0        
+[13] tools_4.6.2         igraph_2.3.4        labeling_0.4.3     
+[16] plyr_1.8.9          RColorBrewer_1.1-3  KernSmooth_2.23-20 
+[19] Rtsne_0.17          withr_3.0.3         purrr_1.2.2        
+[22] BiocGenerics_0.58.1 stats4_4.6.2        RcppHNSW_0.7.0     
+[25] fastDummies_1.7.6   colorspace_2.1-4    future_1.82.0      
+[28] progressr_1.1.0     globals_0.20.0      scales_1.4.0       
+[31] iterators_1.0.14    MASS_7.3-66         ggridges_0.5.7     
+[34] cli_3.6.6           crayon_1.5.3        ragg_1.5.2         
+[37] generics_0.1.4      ica_1.0-3           future.apply_1.21.0
+[40] RSpectra_0.16-2     sctransform_0.4.3   httr_1.4.9         
+[43] reshape2_1.4.5      rjson_0.2.23        pbapply_1.7-5      
+[46] stringr_1.6.0       parallel_4.6.2      matrixStats_1.5.0  
+[49] vctrs_0.7.3         Matrix_1.7-6        jsonlite_2.0.0     
+[52] IRanges_2.46.0      GetoptLong_1.1.1    patchwork_1.3.2    
+[55] S4Vectors_0.50.3    ggrepel_0.9.8       clue_0.3-68        
+[58] irlba_2.4.1         scattermore_1.2     listenv_1.1.0      
+[61] magick_2.9.1        systemfonts_1.3.2   foreach_1.5.2      
+[64] pls_2.9-0           glue_1.8.1          parallelly_1.50.0  
+[67] spam_2.11-4         codetools_0.2-18    cowplot_1.2.0      
+[70] uwot_0.2.5          shape_1.4.6.1       RcppAnnoy_0.0.23   
+[73] stringi_1.8.9       gtable_0.3.6        tibble_3.3.1       
+[76] pillar_1.11.1       R6_2.6.1            textshaping_1.0.5  
+[79] doParallel_1.0.17   lattice_0.20-45     png_0.1-9          
+[82] Rcpp_1.1.2          gridExtra_2.3.1     pkgconfig_2.0.3    
+[85] GlobalOptions_0.1.4

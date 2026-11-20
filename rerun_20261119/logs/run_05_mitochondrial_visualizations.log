@@ -1,0 +1,71 @@
+/bin/sed: /home/zhouxin/.trae-cn-server/bin/stable-28d26af97a603c458001613c87d6f16fc6098d0a-debian10/modules/ai-agent/libselinux.so.1: no version information available (required by /bin/sed)
+/bin/sed: /home/zhouxin/.trae-cn-server/bin/stable-28d26af97a603c458001613c87d6f16fc6098d0a-debian10/modules/ai-agent/libselinux.so.1: no version information available (required by /bin/sed)
+PTEC 细胞数: 1743 ; CTRL: 1226 ; AKI: 517 
+
+=== ATP 合成词条基因拆解 ===
+       GO_ID                                                GO_Term   direction
+1 GO:0015986               proton motive force-driven ATP synthesis Down_in_AKI
+2 GO:0015986               proton motive force-driven ATP synthesis   Up_in_AKI
+3 GO:0042776 proton motive force-driven mitochondrial ATP synthesis Down_in_AKI
+4 GO:0042776 proton motive force-driven mitochondrial ATP synthesis   Up_in_AKI
+              encoding  n
+1 Mitochondrial genome  7
+2       Nuclear genome 18
+3 Mitochondrial genome  7
+4       Nuclear genome 14
+
+核编码 ATP 合酶基因(在数据中): 15 
+线粒体编码 OXPHOS 基因(在数据中): 13 
+# A tibble: 2 x 3
+  module                              p lab         
+  <fct>                           <dbl> <chr>       
+1 Nuclear-encoded ATP synthase 9.94e-61 P = 9.94e-61
+2 Mitochondria-encoded OXPHOS  0        P = 0.00e+00
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+
+各线粒体模块基因数:
+    ATP synthase (Complex V)                    Complex I 
+                         119                           60 
+                 Complex III                   Complex IV 
+                          12                           31 
+   Mitochondrial translation         Mitochondrial fusion 
+                         142                           32 
+       Mitochondrial fission                    Mitophagy 
+                          36                           94 
+Response to oxidative stress 
+                         383 
+
+各线粒体模块 Wilcoxon P:
+# A tibble: 9 x 4
+  module                                  p lab       sig  
+  <fct>                               <dbl> <chr>     <chr>
+1 ATP synthase (Complex V)     0            P=0.0e+00 ***  
+2 Complex I                    0            P=0.0e+00 ***  
+3 Complex III                  0.00000294   P=2.9e-06 ***  
+4 Complex IV                   0            P=0.0e+00 ***  
+5 Mitochondrial translation    0.0000147    P=1.5e-05 ***  
+6 Mitochondrial fusion         0.00784      P=0.01    **   
+7 Mitochondrial fission        0.152        P=0.15    ns   
+8 Mitophagy                    0.00255      P=0.00    **   
+9 Response to oxidative stress 0.0000000253 P=2.5e-08 ***  
+'select()' returned 1:many mapping between keys and columns
+
+热图基因数: 50 ; 模块分布:
+
+       ATP synthase           Complex I         Complex III          Complex IV 
+                 21                   6                   3                   3 
+   Mito translation              Fusion             Fission           Mitophagy 
+                  1                   0                   0                   1 
+Other mitochondrial 
+                 15 
+
+线粒体相关 GO(BP) 条目(双向): 13 
+Warning message:
+Vectorized input to `element_text()` is not officially supported.
+i Results may be unexpected or may change in future versions of ggplot2. 
+>>> 05_mitochondrial_visualizations.R 完成

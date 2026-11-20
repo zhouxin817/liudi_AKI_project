@@ -1,0 +1,45 @@
+/bin/sed: /home/zhouxin/.trae-cn-server/bin/stable-9f58dbd63fc8d25d766e11c5362200684b5fac56-debian10/modules/ai-agent/libselinux.so.1: no version information available (required by /bin/sed)
+/bin/sed: /home/zhouxin/.trae-cn-server/bin/stable-9f58dbd63fc8d25d766e11c5362200684b5fac56-debian10/modules/ai-agent/libselinux.so.1: no version information available (required by /bin/sed)
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+全部细胞数: 4507 ; CTRL: 2785 ; AKI: 1722 
+            
+             CTRL  AKI
+  Neutrophil   15  344
+  PTEC        616  517
+  GEC         378  196
+  PT         1776  665
+# A tibble: 2 x 5
+  group Neutrophil  PTEC   GEC    PT
+  <fct>      <dbl> <dbl> <dbl> <dbl>
+1 CTRL     0.00797 0.294 0.140 0.558
+2 AKI      0.159   0.335 0.133 0.372
+参与打分基因: 38 / 38
+                                             score n_genes mean_CTRL mean_AKI
+                        Total NET score (38 genes)      38  -0.00139   0.0386
+Granule / NET effectors    Granule / NET effectors       7  -0.01333   0.0218
+Cytokines / chemokines      Cytokines / chemokines       7   0.04698   0.1108
+Receptors / adhesion          Receptors / adhesion      14  -0.02114   0.0248
+Upstream signalling            Upstream signalling      10   0.00198   0.0177
+                        p_cell_unadjusted p_cell_celltype_adjusted
+                                 9.86e-54                 0.000246
+Granule / NET effectors          2.02e-03                 0.769945
+Cytokines / chemokines           3.49e-30                 0.005328
+Receptors / adhesion             1.85e-10                 0.568212
+Upstream signalling              4.70e-01                 0.000354
+                        p_sample_level     direction
+                               0.00534 Higher in AKI
+Granule / NET effectors        0.00341 Higher in AKI
+Cytokines / chemokines         0.02681 Higher in AKI
+Receptors / adhesion           0.02681 Higher in AKI
+Upstream signalling            0.02681 Higher in AKI
+Warning: Scaling data with a low number of groups may produce misleading results
+Scale for colour is already present.
+Adding another scale for colour, which will replace the existing scale.
+>>> 07_netsig_allcells.R 完成

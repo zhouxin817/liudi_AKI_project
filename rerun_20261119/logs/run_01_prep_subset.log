@@ -1,0 +1,93 @@
+/bin/sed: /home/zhouxin/.trae-cn-server/bin/stable-28d26af97a603c458001613c87d6f16fc6098d0a-debian10/modules/ai-agent/libselinux.so.1: no version information available (required by /bin/sed)
+/bin/sed: /home/zhouxin/.trae-cn-server/bin/stable-28d26af97a603c458001613c87d6f16fc6098d0a-debian10/modules/ai-agent/libselinux.so.1: no version information available (required by /bin/sed)
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+=== 筛选结果(按质量从高到低) ===
+   specimen       condition_l1 total_all Neutrophil PTEC GEC PT  group pass 
+1  33-10005       AKI          6630       26         63    2 311 AKI   FALSE
+2  32-10074       AKI          4792       99         51   18 238 AKI    TRUE
+3  34-10050       AKI          4407      148        123   28 135 AKI    TRUE
+4  30-10018       AKI          3711       28         27    1  64 AKI   FALSE
+5  34-10187       AKI          3422        1         56   21  80 AKI    TRUE
+6  30-10125       AKI          3288       45         38   36  53 AKI    TRUE
+7  32-10003       AKI          2712       22         98   50  44 AKI    TRUE
+8  34-10184       AKI          2643        3          5    0   2 AKI   FALSE
+9  32-10034       AKI          1559       27         72   30  54 AKI    TRUE
+10 30-10034       AKI          1154        2         79   13  61 AKI    TRUE
+11 30-10123       AKI           996        3          2    4  25 AKI   FALSE
+12 33-10006       AKI           463        3         30    3  12 AKI   FALSE
+13 PRE027         Ref          1820        1         76   96 256 CTRL   TRUE
+14 PRE038         Ref          1725        1        111  121 991 CTRL   TRUE
+15 PRE019-4       Ref          1510        5        154  102  90 CTRL   TRUE
+16 PRE98sc        Ref          1415        1         83   26 144 CTRL   TRUE
+17 Sample1153-EO3 Ref          1352        8        144   76 117 CTRL   TRUE
+18 Sample1162-EO2 Ref          1340        1         64   58 211 CTRL   TRUE
+19 Sample1157-EO2 Ref          1188        1         64   32 225 CTRL   TRUE
+20 PRE19-025      Ref          1143        0        102    9 152 CTRL   TRUE
+21 PRE018-1       Ref          1135        7         90   24 143 CTRL   TRUE
+22 Sample1157-EO1 Ref          1053        3         57   32 182 CTRL   TRUE
+23 Sample1162-EO1 Ref           983        1         63   64 193 CTRL   TRUE
+24 Sample1158-EO3 Ref           975        0         81   88  30 CTRL   TRUE
+25 Sample1158-EO2 Ref           971        0         23    7  69 CTRL   TRUE
+26 Sample1153-EO1 Ref           854        5         81   55  31 CTRL   TRUE
+27 Sample1153-EO2 Ref           854        1         33   23  29 CTRL   TRUE
+28 PRE062-1       Ref           756        9         28   18  16 CTRL  FALSE
+29 Sample1157-EO3 Ref           750        0         23   33  91 CTRL  FALSE
+30 PRE19-05       Ref           721        0         92   16  50 CTRL  FALSE
+31 PRE055-1       Ref           585        4         82   15  58 CTRL  FALSE
+32 Sample1158-EO1 Ref           520        2         38    0   9 CTRL  FALSE
+   note         
+1  GEC<5        
+2  PASS         
+3  PASS         
+4  GEC<5        
+5  PASS         
+6  PASS         
+7  PASS         
+8  PTEC<10      
+9  PASS         
+10 PASS         
+11 PTEC<10      
+12 total_all<800
+13 PASS         
+14 PASS         
+15 PASS         
+16 PASS         
+17 PASS         
+18 PASS         
+19 PASS         
+20 PASS         
+21 PASS         
+22 PASS         
+23 PASS         
+24 PASS         
+25 PASS         
+26 PASS         
+27 PASS         
+28 total_all<800
+29 total_all<800
+30 total_all<800
+31 total_all<800
+32 total_all<800
+
+通过样本: 22   剔除: 10 
+# A tibble: 2 x 2
+  group     n
+  <chr> <int>
+1 AKI       7
+2 CTRL     15
+
+=== 保留细胞数(cell_group x group) ===
+            
+             CTRL  AKI
+  Neutrophil   35  344
+  PTEC       1226  517
+  GEC         813  196
+  PT         2863  665
+>>> 01_prep_subset.R 完成

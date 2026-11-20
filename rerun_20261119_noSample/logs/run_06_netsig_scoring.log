@@ -1,0 +1,74 @@
+/bin/sed: /home/zhouxin/.trae-cn-server/bin/stable-9f58dbd63fc8d25d766e11c5362200684b5fac56-debian10/modules/ai-agent/libselinux.so.1: no version information available (required by /bin/sed)
+/bin/sed: /home/zhouxin/.trae-cn-server/bin/stable-9f58dbd63fc8d25d766e11c5362200684b5fac56-debian10/modules/ai-agent/libselinux.so.1: no version information available (required by /bin/sed)
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+中性粒细胞数: 359 ; CTRL: 15 ; AKI: 344 
+参与打分的基因: 38 / 38 
+子模块评分列: NETmod1, NETmod2, NETmod3, NETmod4 
+                                             score n_genes mean_CTRL_cell
+                        Total NET score (38 genes)      38         0.0639
+Granule / NET effectors    Granule / NET effectors       7         0.0738
+Cytokines / chemokines      Cytokines / chemokines       7         0.2510
+Receptors / adhesion          Receptors / adhesion      14         0.0120
+Upstream signalling            Upstream signalling      10        -0.0207
+                        mean_AKI_cell p_cell mean_CTRL_sample mean_AKI_sample
+                              0.03563  0.383         0.033519         0.00819
+Granule / NET effectors       0.05138  0.528         0.105975         0.05895
+Cytokines / chemokines        0.11656  0.407         0.094006         0.08557
+Receptors / adhesion         -0.00726  0.634        -0.000145        -0.05486
+Upstream signalling           0.00700  0.725        -0.019354        -0.01329
+                        p_sample direction_cell direction_sample
+                           0.626 Higher in CTRL   Higher in CTRL
+Granule / NET effectors    0.330 Higher in CTRL   Higher in CTRL
+Cytokines / chemokines     0.516 Higher in CTRL   Higher in CTRL
+Receptors / adhesion       0.417 Higher in CTRL   Higher in CTRL
+Upstream signalling        0.516  Higher in AKI    Higher in AKI
+       gene                  module   avg_log2FC    p_val_adj pct_AKI pct_CTRL
+1      AKT1     Upstream signalling  -0.92294939 1.000000e+00   0.078    0.267
+2      AKT2     Upstream signalling   0.13291625 1.000000e+00   0.084    0.133
+3      ATG7     Upstream signalling  -0.51639473 1.000000e+00   0.067    0.133
+4    CLEC6A    Receptors / adhesion  -2.13574879 1.000000e+00   0.003    0.000
+5      CSF3  Cytokines / chemokines  -4.51937416 1.000000e+00   0.000    0.000
+6      CTSG Granule / NET effectors  -2.63954626 1.000000e+00   0.003    0.000
+7      CYBB Granule / NET effectors  -0.13244839 1.000000e+00   0.622    0.667
+8    DNASE1 Granule / NET effectors  -4.88605084 1.000000e+00   0.012    0.133
+9     ELANE Granule / NET effectors  -4.51937416 1.000000e+00   0.000    0.000
+10   ENTPD4    Receptors / adhesion  -0.76920181 1.000000e+00   0.052    0.067
+11       F3    Receptors / adhesion  -2.32481127 1.000000e+00   0.003    0.000
+12    HMGB1  Cytokines / chemokines  -0.42429578 1.000000e+00   0.564    0.667
+13    IL17A  Cytokines / chemokines  -4.51937416 1.000000e+00   0.000    0.000
+14     IL1B  Cytokines / chemokines   0.09908069 1.000000e+00   0.497    0.467
+15      IL6  Cytokines / chemokines  -0.49827378 1.000000e+00   0.012    0.000
+16      IL8  Cytokines / chemokines -11.19389986 2.665208e-17   0.000    0.267
+17    IRAK4     Upstream signalling   2.27384808 1.000000e+00   0.078    0.000
+18    ITGAM    Receptors / adhesion  -0.40875821 1.000000e+00   0.230    0.267
+19    ITGB2    Receptors / adhesion   0.03702092 1.000000e+00   0.698    0.867
+20    KCNN3    Receptors / adhesion  -4.51937416 1.000000e+00   0.000    0.000
+21    MAPK1     Upstream signalling   1.78721844 1.000000e+00   0.131    0.067
+22    MAPK3     Upstream signalling   2.20380830 1.000000e+00   0.090    0.000
+23     MMP9 Granule / NET effectors   1.93004576 1.000000e+00   0.029    0.000
+24      MPO Granule / NET effectors  -1.30838365 1.000000e+00   0.003    0.000
+25     MTOR     Upstream signalling  -0.36979281 1.000000e+00   0.017    0.000
+26    PADI4 Granule / NET effectors   0.08681134 1.000000e+00   0.015    0.000
+27    PTAFR    Receptors / adhesion   0.29722202 1.000000e+00   0.134    0.200
+28   PIK3CA     Upstream signalling  -0.45899412 1.000000e+00   0.070    0.133
+29    RIPK1     Upstream signalling  -0.85665559 1.000000e+00   0.015    0.067
+30    RIPK3     Upstream signalling   1.69109773 1.000000e+00   0.047    0.000
+31     SELP    Receptors / adhesion  -2.95211528 1.000000e+00   0.003    0.000
+32   SELPLG    Receptors / adhesion   1.49582129 1.000000e+00   0.142    0.067
+33 SIGLEC14    Receptors / adhesion  -2.92818800 1.000000e+00   0.035    0.133
+34     TLR2    Receptors / adhesion   0.18277033 1.000000e+00   0.157    0.200
+35     TLR4    Receptors / adhesion  -0.16589620 1.000000e+00   0.137    0.133
+36     TLR7    Receptors / adhesion   1.44154192 1.000000e+00   0.044    0.000
+37     TLR8    Receptors / adhesion   0.28639943 1.000000e+00   0.076    0.067
+38      TNF  Cytokines / chemokines   2.30536001 1.000000e+00   0.041    0.000
+Warning: Scaling data with a low number of groups may produce misleading results
+Scale for colour is already present.
+Adding another scale for colour, which will replace the existing scale.
+>>> 07_netsig_scoring.R 完成

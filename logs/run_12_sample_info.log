@@ -1,0 +1,93 @@
+/bin/sed: /home/zhouxin/.trae-cn-server/bin/stable-28d26af97a603c458001613c87d6f16fc6098d0a-debian10/modules/ai-agent/libselinux.so.1: no version information available (required by /bin/sed)
+/bin/sed: /home/zhouxin/.trae-cn-server/bin/stable-28d26af97a603c458001613c87d6f16fc6098d0a-debian10/modules/ai-agent/libselinux.so.1: no version information available (required by /bin/sed)
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+=== 样本数 ===
+
+           AKI           CTRL Excluded (CKD) 
+            12             20             15 
+
+=== 患者数 ===
+AKI: 12 ; CTRL(Ref): 18 ; CKD: 15 
+
+=== 性别分布(样本数) ===
+                
+                  F  M
+  AKI             3  9
+  CTRL           13  7
+  Excluded (CKD) 10  5
+
+=== 本次分析样本(AKI + CTRL) ===
+   specimen       analysis_group patient  condition_l2 sex race total_cells
+1  30-10018       AKI            30-10018 AKI          M   AA   3711       
+2  30-10034       AKI            30-10034 AKI          F   AA   1154       
+3  30-10123       AKI            30-10123 AKI          M   AA    996       
+4  30-10125       AKI            30-10125 AKI          M   AA   3288       
+5  32-10003       AKI            32-10003 AKI          M   <NA> 2712       
+6  32-10034       AKI            32-10034 AKI          M   0    1559       
+7  32-10074       AKI            32-10074 AKI          M   W    4792       
+8  33-10005       AKI            33-10005 AKI          M   W    6630       
+9  33-10006       AKI            33-10006 AKI          M   W     463       
+10 34-10050       AKI            34-10050 AKI          F   W    4407       
+11 34-10184       AKI            34-10184 AKI          F   W    2643       
+12 34-10187       AKI            34-10187 AKI          M   AA   3422       
+13 PRE018-1       CTRL           PRE018   Ref          M   0    1135       
+14 PRE019-4       CTRL           PRE019   Ref          F   0    1510       
+15 PRE027         CTRL           PRE027   Ref          F   0    1820       
+16 PRE038         CTRL           PRE038   Ref          F   0    1725       
+17 PRE055-1       CTRL           PRE055   Ref          M   0     585       
+18 PRE062-1       CTRL           PRE062   Ref          F   0     756       
+19 PRE19-025      CTRL           PRE019   Ref          F   0    1143       
+20 PRE19-05       CTRL           PRE019   Ref          F   0     721       
+21 PRE98sc        CTRL           PRE098   Ref          F   0    1415       
+22 Sample1153-EO1 CTRL           1153EO1  Ref          F   0     854       
+23 Sample1153-EO2 CTRL           1153EO2  Ref          F   0     854       
+24 Sample1153-EO3 CTRL           1153EO3  Ref          F   0    1352       
+25 Sample1157-EO1 CTRL           1157EO1  Ref          M   0    1053       
+26 Sample1157-EO2 CTRL           1157EO2  Ref          F   0    1188       
+27 Sample1157-EO3 CTRL           1157EO3  Ref          M   0     750       
+28 Sample1158-EO1 CTRL           1158EO1  Ref          F   0     520       
+29 Sample1158-EO2 CTRL           1158EO2  Ref          M   0     971       
+30 Sample1158-EO3 CTRL           1158EO3  Ref          F   0     975       
+31 Sample1162-EO1 CTRL           1162EO1  Ref          M   0     983       
+32 Sample1162-EO2 CTRL           1162EO2  Ref          M   0    1340       
+   Neutrophil PTEC GEC PT 
+1   28         27    1  64
+2    2         79   13  61
+3    3          2    4  25
+4   45         38   36  53
+5   22         98   50  44
+6   27         72   30  54
+7   99         51   18 238
+8   26         63    2 311
+9    3         30    3  12
+10 148        123   28 135
+11   3          5    0   2
+12   1         56   21  80
+13   7         90   24 143
+14   5        154  102  90
+15   1         76   96 256
+16   1        111  121 991
+17   4         82   15  58
+18   9         28   18  16
+19   0        102    9 152
+20   0         92   16  50
+21   1         83   26 144
+22   5         81   55  31
+23   1         33   23  29
+24   8        144   76 117
+25   3         57   32 182
+26   1         64   32 225
+27   0         23   33  91
+28   2         38    0   9
+29   0         23    7  69
+30   0         81   88  30
+31   1         63   64 193
+32   1         64   58 211
+>>> 12_sample_info.R 完成

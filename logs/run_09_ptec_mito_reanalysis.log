@@ -1,0 +1,42 @@
+/bin/sed: /home/zhouxin/.trae-cn-server/bin/stable-e9a230d57e18d2277818242552b82a145ef27ba0-debian10/modules/ai-agent/libselinux.so.1: no version information available (required by /bin/sed)
+/bin/sed: /home/zhouxin/.trae-cn-server/bin/stable-e9a230d57e18d2277818242552b82a145ef27ba0-debian10/modules/ai-agent/libselinux.so.1: no version information available (required by /bin/sed)
+旧 PTEC GO 结果中废弃词条数: 18 
+PTEC 细胞数: 2133 ; CTRL: 1489 ; AKI: 644 
+For a (much!) faster implementation of the Wilcoxon Rank Sum Test,
+(default method for FindMarkers) please install the presto package
+--------------------------------------------
+install.packages('devtools')
+devtools::install_github('immunogenomics/presto')
+--------------------------------------------
+After installation of presto, Seurat will automatically use the more 
+efficient implementation (no further action necessary).
+This message will be shown once per session
+PTEC 显著差异基因: Up = 526 , Down = 477 , 全部检验基因 = 37080 
+'select()' returned 1:many mapping between keys and columns
+Warning message:
+In bitr(deg$gene, fromType = "SYMBOL", toType = "ENTREZID", OrgDb = org.Hs.eg.db) :
+  42.08% of input gene IDs are fail to map...
+'select()' returned 1:1 mapping between keys and columns
+Warning message:
+In bitr(genes, fromType = "SYMBOL", toType = "ENTREZID", OrgDb = org.Hs.eg.db) :
+  6.84% of input gene IDs are fail to map...
+'select()' returned 1:1 mapping between keys and columns
+Warning message:
+In bitr(genes, fromType = "SYMBOL", toType = "ENTREZID", OrgDb = org.Hs.eg.db) :
+  43.82% of input gene IDs are fail to map...
+GO 富集条目: 411 -> 剔除废弃词条后: 411 
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+线粒体相关 BP 条目检验完成: 158 条(双向)
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+Warning: Scaling data with a low number of groups may produce misleading results
+>>> 09_ptec_mito_reanalysis.R 完成

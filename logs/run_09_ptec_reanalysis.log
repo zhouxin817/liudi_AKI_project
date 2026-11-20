@@ -1,0 +1,84 @@
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+>>> 读取 Seurat 对象并提取 PTEC
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  6789843 362.7   11258188 601.3  8810005 470.6
+Vcells 24830836 189.5   72203999 550.9 74922756 571.7
+>>> PTEC 差异分析: AKI vs CTRL
+Warning messages:
+1: The `slot` argument of `GetAssayData()` is deprecated as of SeuratObject 5.0.0.
+i Please use the `layer` argument instead.
+i The deprecated feature was likely used in the Seurat package.
+  Please report the issue at <https://github.com/satijalab/seurat/issues>. 
+2: `PackageCheck()` was deprecated in SeuratObject 5.0.0.
+i Please use `rlang::check_installed()` instead.
+i The deprecated feature was likely used in the Seurat package.
+  Please report the issue at <https://github.com/satijalab/seurat/issues>. 
+PTEC 显著差异基因: up = 529 , down = 477 
+Warning message:
+In bitr(genes, "SYMBOL", "ENTREZID", org.Hs.eg.db) :
+  6.24% of input gene IDs are fail to map...
+Warning message:
+In bitr(genes, "SYMBOL", "ENTREZID", org.Hs.eg.db) :
+  45.7% of input gene IDs are fail to map...
+上调基因映射: 输入 529  直接 496  ALIAS回补 9  未映射 24 
+下调基因映射: 输入 477  直接 259  ALIAS回补 189  未映射 37 
+>>> PTEC GO(BP)富集(上/下调分别进行)
+>>> 复用已有 QuickGO 弃用状态缓存
+GO 条目: 原始 421 ; 弃用剔除 14 ; 保留 407 
+                        ID
+GO:0009199...1  GO:0009199
+GO:0072522...2  GO:0072522
+GO:0043620      GO:0043620
+GO:0043618      GO:0043618
+GO:0071241      GO:0071241
+GO:0036003      GO:0036003
+GO:1901522      GO:1901522
+GO:0051348      GO:0051348
+GO:0061418      GO:0061418
+GO:0009199...10 GO:0009199
+GO:0072522...11 GO:0072522
+GO:0051208      GO:0051208
+GO:0051282      GO:0051282
+GO:0007568      GO:0007568
+                                                                                                                            Description
+GO:0009199...1                                                                            ribonucleoside triphosphate metabolic process
+GO:0072522...2                                                                          purine-containing compound biosynthetic process
+GO:0043620                                                              regulation of DNA-templated transcription in response to stress
+GO:0043618                                            regulation of transcription from RNA polymerase II promoter in response to stress
+GO:0071241                                                                                     cellular response to inorganic substance
+GO:0036003                                   positive regulation of transcription from RNA polymerase II promoter in response to stress
+GO:1901522      positive regulation of transcription from RNA polymerase II promoter involved in cellular response to chemical stimulus
+GO:0051348                                                                                  negative regulation of transferase activity
+GO:0061418                                           regulation of transcription from RNA polymerase II promoter in response to hypoxia
+GO:0009199...10                                                                           ribonucleoside triphosphate metabolic process
+GO:0072522...11                                                                         purine-containing compound biosynthetic process
+GO:0051208                                                                                                  sequestering of calcium ion
+GO:0051282                                                                                    regulation of sequestering of calcium ion
+GO:0007568                                                                                                                        aging
+                  direction
+GO:0009199...1  Down_in_AKI
+GO:0072522...2  Down_in_AKI
+GO:0043620      Down_in_AKI
+GO:0043618      Down_in_AKI
+GO:0071241      Down_in_AKI
+GO:0036003      Down_in_AKI
+GO:1901522      Down_in_AKI
+GO:0051348      Down_in_AKI
+GO:0061418      Down_in_AKI
+GO:0009199...10   Up_in_AKI
+GO:0072522...11   Up_in_AKI
+GO:0051208        Up_in_AKI
+GO:0051282        Up_in_AKI
+GO:0007568        Up_in_AKI
+线粒体相关 GO 条目: 7 
+Warning message:
+Vectorized input to `element_text()` is not officially supported.
+i Results may be unexpected or may change in future versions of ggplot2. 
+>>> 09_ptec_reanalysis.R 完成

@@ -1,0 +1,150 @@
+=== 09_ptec_mito_reanalysis.R 运行时间 ===
+[1] "2026-11-17 10:13:18 CST"
+
+=== 注释版本 ===
+          package    version
+1               R      4.6.2
+2    org.Hs.eg.db     3.23.1
+3           GO.db     3.23.1
+4 clusterProfiler     4.20.3
+5   AnnotationDbi     1.74.0
+6          Seurat 6.0.0.9000
+7    SeuratObject      5.4.0
+
+=== 旧结果中废弃 GO 词条 ===
+           ID
+1  GO:0009199
+2  GO:0043618
+3  GO:0043620
+4  GO:0071241
+5  GO:0036003
+6  GO:0055072
+7  GO:0061418
+8  GO:0051238
+9  GO:0051208
+10 GO:0031668
+11 GO:0051348
+12 GO:0051090
+13 GO:0051282
+14 GO:1901522
+15 GO:0002294
+16 GO:0007568
+17 GO:0002293
+18 GO:0007183
+                                                                                                               Description
+1                                                                            ribonucleoside triphosphate metabolic process
+2                                        regulation of transcription from RNA polymerase II promoter in response to stress
+3                                                          regulation of DNA-templated transcription in response to stress
+4                                                                                 cellular response to inorganic substance
+5                               positive regulation of transcription from RNA polymerase II promoter in response to stress
+6                                                                                                     iron ion homeostasis
+7                                       regulation of transcription from RNA polymerase II promoter in response to hypoxia
+8                                                                                                sequestering of metal ion
+9                                                                                              sequestering of calcium ion
+10                                                                             cellular response to extracellular stimulus
+11                                                                             negative regulation of transferase activity
+12                                                                 regulation of DNA-binding transcription factor activity
+13                                                                               regulation of sequestering of calcium ion
+14 positive regulation of transcription from RNA polymerase II promoter involved in cellular response to chemical stimulus
+15                                             CD4-positive, alpha-beta T cell differentiation involved in immune response
+16                                                                                                                   aging
+17                                                           alpha-beta T cell differentiation involved in immune response
+18                                                                                           SMAD protein complex assembly
+       p.adjust   direction
+1  1.644764e-06   Up_in_AKI
+2  8.309496e-06 Down_in_AKI
+3  1.966421e-05 Down_in_AKI
+4  7.810374e-05 Down_in_AKI
+5  2.707070e-04 Down_in_AKI
+6  5.665188e-03 Down_in_AKI
+7  8.847763e-03 Down_in_AKI
+8  8.989043e-03 Down_in_AKI
+9  1.387530e-02   Up_in_AKI
+10 1.670531e-02 Down_in_AKI
+11 2.531888e-02 Down_in_AKI
+12 2.773121e-02 Down_in_AKI
+13 2.780100e-02   Up_in_AKI
+14 3.129186e-02 Down_in_AKI
+15 3.898868e-02 Down_in_AKI
+16 3.899454e-02   Up_in_AKI
+17 4.043516e-02 Down_in_AKI
+18 4.918344e-02   Up_in_AKI
+
+=== PTEC 差异基因 ===
+Up in AKI: 526 ; Down in AKI: 477 
+
+=== 更新后 GO 富集 ===
+条目数: 411 ; 其中线粒体相关: 12 
+
+=== sessionInfo ===
+R version 4.6.2 (2026-10-29)
+Platform: x86_64-pc-linux-gnu
+Running under: Ubuntu 22.04.5 LTS
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/openblas-pthread/libblas.so.3 
+LAPACK: /usr/lib/x86_64-linux-gnu/openblas-pthread/libopenblasp-r0.3.20.so;  LAPACK version 3.10.0
+
+locale:
+ [1] LC_CTYPE=C.UTF-8       LC_NUMERIC=C           LC_TIME=C.UTF-8       
+ [4] LC_COLLATE=C.UTF-8     LC_MONETARY=C.UTF-8    LC_MESSAGES=C.UTF-8   
+ [7] LC_PAPER=C.UTF-8       LC_NAME=C              LC_ADDRESS=C          
+[10] LC_TELEPHONE=C         LC_MEASUREMENT=C.UTF-8 LC_IDENTIFICATION=C   
+
+time zone: Asia/Shanghai
+tzcode source: system (glibc)
+
+attached base packages:
+[1] stats4    stats     graphics  grDevices utils     datasets  methods  
+[8] base     
+
+other attached packages:
+ [1] scales_1.4.0           stringr_1.6.0          ggplot2_4.0.4         
+ [4] tidyr_1.3.2            dplyr_1.2.1            GO.db_3.23.1          
+ [7] org.Hs.eg.db_3.23.1    AnnotationDbi_1.74.0   IRanges_2.46.0        
+[10] S4Vectors_0.50.3       Biobase_2.72.0         BiocGenerics_0.58.1   
+[13] generics_0.1.4         clusterProfiler_4.20.3 Seurat_6.0.0.9000     
+[16] SeuratObject_5.4.0     sp_2.2-4              
+
+loaded via a namespace (and not attached):
+  [1] RColorBrewer_1.1-3      jsonlite_2.0.0          tidydr_0.0.7           
+  [4] magrittr_2.0.5          ggtangle_0.1.5          farver_2.1.2           
+  [7] ragg_1.5.2              fs_2.1.0                vctrs_0.7.3            
+ [10] memoise_2.0.1           ggtree_4.2.1            htmltools_0.5.9        
+ [13] gridGraphics_0.5-1      sctransform_0.4.3       parallelly_1.50.0      
+ [16] KernSmooth_2.23-20      htmlwidgets_1.6.4       ica_1.0-3              
+ [19] plyr_1.8.9              httr2_1.3.0             cachem_1.1.0           
+ [22] igraph_2.3.4            lifecycle_1.0.5         pkgconfig_2.0.3        
+ [25] gson_0.2.2              Matrix_1.7-6            R6_2.6.1               
+ [28] fastmap_1.2.0           future_1.82.0           digest_0.6.39          
+ [31] aplot_0.3.2             enrichplot_1.32.1       ggnewscale_0.5.2       
+ [34] patchwork_1.3.2         aisdk_1.4.12            ps_1.9.3               
+ [37] RSpectra_0.16-2         irlba_2.4.1             textshaping_1.0.5      
+ [40] RSQLite_3.53.3          labeling_0.4.3          progressr_1.1.0        
+ [43] httr_1.4.9              polyclip_1.10-7         compiler_4.6.2         
+ [46] withr_3.0.3             bit64_4.8.6             fontquiver_0.2.1       
+ [49] S7_0.2.2                DBI_1.3.0               fastDummies_1.7.6      
+ [52] ggforce_0.5.0           MASS_7.3-66             rappdirs_0.3.4         
+ [55] tools_4.6.2             otel_0.3.0              ape_5.8-1              
+ [58] scatterpie_0.2.6        future.apply_1.21.0     glue_1.8.1             
+ [61] callr_3.8.0             nlme_3.1-155            GOSemSim_2.38.3        
+ [64] grid_4.6.2              Rtsne_0.17              cluster_2.1.8.3        
+ [67] reshape2_1.4.5          gtable_0.3.6            XVector_0.52.0         
+ [70] RcppAnnoy_0.0.23        ggrepel_0.9.8           RANN_2.6.3             
+ [73] pillar_1.11.1           limma_3.68.5            yulab.utils_0.2.5      
+ [76] spam_2.11-4             RcppHNSW_0.7.0          splines_4.6.2          
+ [79] tweenr_2.0.3            treeio_1.36.1           lattice_0.20-45        
+ [82] bit_4.6.0               tidyselect_1.2.1        fontLiberation_0.1.0   
+ [85] Biostrings_2.80.2       pbapply_1.7-5           fontBitstreamVera_0.1.1
+ [88] gridExtra_2.3.1         Seqinfo_1.2.0           scattermore_1.2        
+ [91] pls_2.9-0               statmod_1.5.2           matrixStats_1.5.0      
+ [94] stringi_1.8.9           lazyeval_0.2.3          ggfun_0.2.2            
+ [97] yaml_2.3.12             codetools_0.2-18        qvalue_2.44.0          
+[100] gdtools_0.6.0           tibble_3.3.1            ggplotify_0.1.4        
+[103] cli_3.6.6               uwot_0.2.5              systemfonts_1.3.2      
+[106] processx_3.9.0          Rcpp_1.1.2              globals_0.20.0         
+[109] png_0.1-9               parallel_4.6.2          blob_1.3.0             
+[112] dotCall64_1.2           DOSE_4.6.0              listenv_1.1.0          
+[115] tidytree_0.4.9          ggiraph_0.9.6           enrichit_0.2.7         
+[118] ggridges_0.5.7          purrr_1.2.2             crayon_1.5.3           
+[121] rlang_1.3.0             cowplot_1.2.0           KEGGREST_1.52.2        

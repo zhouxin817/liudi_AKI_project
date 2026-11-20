@@ -1,0 +1,3 @@
+"label","n_deg_mito","n_deg_non_mito","n_universe_mito","n_universe_non_mito","odds_ratio","p_value","p_adj_fisher"
+"PTEC Up in AKI  vs mito",81,528,1696,35384,3.31077140760356,7.80561458596723e-18,1.56112291719345e-17
+"PTEC Down in AKI vs mito",20,466,1696,35384,0.894169701381644,0.717475127145146,0.717475127145146

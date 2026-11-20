@@ -1,0 +1,37 @@
+/bin/sed: /home/zhouxin/.trae-cn-server/bin/stable-9f58dbd63fc8d25d766e11c5362200684b5fac56-debian10/modules/ai-agent/libselinux.so.1: no version information available (required by /bin/sed)
+/bin/sed: /home/zhouxin/.trae-cn-server/bin/stable-9f58dbd63fc8d25d766e11c5362200684b5fac56-debian10/modules/ai-agent/libselinux.so.1: no version information available (required by /bin/sed)
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+中性粒细胞数: 379 ; CTRL: 35 ; AKI: 344 
+样本数: CTRL = 12 ; AKI = 7 
+参与打分的基因: PADI4, ELANE, MPO, CYBB, S100A9, HMGB1, GSDMD 
+                                        comparison   unit n_CTRL n_AKI
+1                 Cell level: NETs score (7 genes)   cell     35   344
+2        Cell level: NETs score (6 genes, -S100A9)   cell     35   344
+3          Cell level: mean gene z-score (7 genes)   cell     35   344
+4          Sample level: mean NETs score (7 genes) sample     12     7
+5 Sample level: mean NETs score (6 genes, -S100A9) sample     12     7
+      mean_CTRL     mean_AKI   p_value      direction
+1  0.6052417726  0.574173872 0.4826413 Higher in CTRL
+2  0.0243853515  0.018575952 0.6333993 Higher in CTRL
+3  0.0119590460 -0.001216763 0.6219115 Higher in CTRL
+4  0.5699477971  0.640089584 0.9662933  Higher in AKI
+5 -0.0007136207  0.056077761 0.8326621  Higher in AKI
+    gene in_data  avg_log2FC     p_val p_val_adj pct_AKI pct_CTRL significant
+1  PADI4    TRUE  1.30920377 0.4758871         1   0.015    0.000          no
+2  ELANE    TRUE -3.29698174 1.0000000         1   0.000    0.000          no
+3    MPO    TRUE -0.08599123 0.7566673         1   0.003    0.000          no
+4   CYBB    TRUE  0.04713988 0.8257098         1   0.622    0.714          no
+5 S100A9    TRUE -0.34414152 0.1501672         1   1.000    1.000          no
+6  HMGB1    TRUE -0.22125105 0.2083362         1   0.564    0.686          no
+7  GSDMD    TRUE  1.39078309 0.2365182         1   0.183    0.114          no
+Warning: Scaling data with a low number of groups may produce misleading results
+Scale for colour is already present.
+Adding another scale for colour, which will replace the existing scale.
+>>> 06_nets_scoring.R 完成

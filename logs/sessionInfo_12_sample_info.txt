@@ -1,0 +1,176 @@
+=== 12_sample_info.R 运行时间 ===
+[1] "2026-11-17 11:20:22 CST"
+
+=== 样本信息 ===
+   specimen       analysis_group included patient  condition_l1 condition_l2
+1  30-10018       AKI             TRUE    30-10018 AKI          AKI         
+2  30-10034       AKI             TRUE    30-10034 AKI          AKI         
+3  30-10123       AKI             TRUE    30-10123 AKI          AKI         
+4  30-10125       AKI             TRUE    30-10125 AKI          AKI         
+5  32-10003       AKI             TRUE    32-10003 AKI          AKI         
+6  32-10034       AKI             TRUE    32-10034 AKI          AKI         
+7  32-10074       AKI             TRUE    32-10074 AKI          AKI         
+8  33-10005       AKI             TRUE    33-10005 AKI          AKI         
+9  33-10006       AKI             TRUE    33-10006 AKI          AKI         
+10 34-10050       AKI             TRUE    34-10050 AKI          AKI         
+11 34-10184       AKI             TRUE    34-10184 AKI          AKI         
+12 34-10187       AKI             TRUE    34-10187 AKI          AKI         
+13 PRE018-1       CTRL            TRUE    PRE018   Ref          Ref         
+14 PRE019-4       CTRL            TRUE    PRE019   Ref          Ref         
+15 PRE027         CTRL            TRUE    PRE027   Ref          Ref         
+16 PRE038         CTRL            TRUE    PRE038   Ref          Ref         
+17 PRE055-1       CTRL            TRUE    PRE055   Ref          Ref         
+18 PRE062-1       CTRL            TRUE    PRE062   Ref          Ref         
+19 PRE19-025      CTRL            TRUE    PRE019   Ref          Ref         
+20 PRE19-05       CTRL            TRUE    PRE019   Ref          Ref         
+21 PRE98sc        CTRL            TRUE    PRE098   Ref          Ref         
+22 Sample1153-EO1 CTRL            TRUE    1153EO1  Ref          Ref         
+23 Sample1153-EO2 CTRL            TRUE    1153EO2  Ref          Ref         
+24 Sample1153-EO3 CTRL            TRUE    1153EO3  Ref          Ref         
+25 Sample1157-EO1 CTRL            TRUE    1157EO1  Ref          Ref         
+26 Sample1157-EO2 CTRL            TRUE    1157EO2  Ref          Ref         
+27 Sample1157-EO3 CTRL            TRUE    1157EO3  Ref          Ref         
+28 Sample1158-EO1 CTRL            TRUE    1158EO1  Ref          Ref         
+29 Sample1158-EO2 CTRL            TRUE    1158EO2  Ref          Ref         
+30 Sample1158-EO3 CTRL            TRUE    1158EO3  Ref          Ref         
+31 Sample1162-EO1 CTRL            TRUE    1162EO1  Ref          Ref         
+32 Sample1162-EO2 CTRL            TRUE    1162EO2  Ref          Ref         
+33 27-10039       Excluded (CKD) FALSE    27-10039 CKD          DKD         
+34 28-10051       Excluded (CKD) FALSE    28-10051 CKD          DKD         
+35 29-10006       Excluded (CKD) FALSE    29-10006 CKD          DKD         
+36 29-10008       Excluded (CKD) FALSE    29-10008 CKD          H-CKD       
+37 29-10010       Excluded (CKD) FALSE    29-10010 CKD          DKD         
+38 29-10011       Excluded (CKD) FALSE    29-10011 CKD          DKD         
+39 29-10012       Excluded (CKD) FALSE    29-10012 CKD          DKD         
+40 29-10013       Excluded (CKD) FALSE    29-10013 CKD          DKD         
+41 29-10016       Excluded (CKD) FALSE    29-10016 CKD          DKD         
+42 31-10000       Excluded (CKD) FALSE    31-10000 CKD          H-CKD       
+43 31-10001       Excluded (CKD) FALSE    31-10001 CKD          DKD         
+44 31-10013       Excluded (CKD) FALSE    31-10013 CKD          H-CKD       
+45 31-10035       Excluded (CKD) FALSE    31-10035 CKD          DKD         
+46 31-10040       Excluded (CKD) FALSE    31-10040 CKD          DKD         
+47 31-10042       Excluded (CKD) FALSE    31-10042 CKD          DKD         
+   condition_l3 sex race     tissue_type experiment age 
+1  0            M   AA       Biopsy      PREMIERE1  <NA>
+2  0            F   AA       Biopsy      PREMIERE2  <NA>
+3  0            M   AA       Biopsy      PREMIERE3  <NA>
+4  0            M   AA       Biopsy      PREMIERE4  <NA>
+5  0            M   <NA>     Biopsy      PREMIERE5  <NA>
+6  0            M   0        Biopsy      PREMIERE6  <NA>
+7  0            M   W        Biopsy      PREMIERE7  <NA>
+8  0            M   W        Biopsy      PREMIERE8  <NA>
+9  0            M   W        Biopsy      PREMIERE9  <NA>
+10 0            F   W        Biopsy      PREMIERE10 <NA>
+11 0            F   W        Biopsy      PREMIERE11 <NA>
+12 0            M   AA       Biopsy      PREMIERE12 <NA>
+13 LivingDonor  M   0        Biopsy      PREMIERE30 <NA>
+14 LivingDonor  F   0        Biopsy      PREMIERE31 <NA>
+15 LivingDonor  F   0        Biopsy      PREMIERE32 <NA>
+16 LivingDonor  F   0        Biopsy      PREMIERE33 <NA>
+17 LivingDonor  M   0        Biopsy      PREMIERE34 <NA>
+18 LivingDonor  F   0        Biopsy      PREMIERE35 <NA>
+19 LivingDonor  F   0        Biopsy      PREMIERE36 <NA>
+20 LivingDonor  F   0        Biopsy      PREMIERE37 <NA>
+21 LivingDonor  F   0        Biopsy      PREMIERE38 <NA>
+22 LivingDonor  F   0        Biopsy      PREMIERE39 <NA>
+23 LivingDonor  F   0        Biopsy      PREMIERE40 <NA>
+24 LivingDonor  F   0        Biopsy      PREMIERE41 <NA>
+25 LivingDonor  M   0        Biopsy      PREMIERE42 <NA>
+26 LivingDonor  F   0        Biopsy      PREMIERE43 <NA>
+27 LivingDonor  M   0        Biopsy      PREMIERE44 <NA>
+28 LivingDonor  F   0        Biopsy      PREMIERE45 <NA>
+29 LivingDonor  M   0        Biopsy      PREMIERE46 <NA>
+30 LivingDonor  F   0        Biopsy      PREMIERE47 <NA>
+31 LivingDonor  M   0        Biopsy      PREMIERE48 <NA>
+32 LivingDonor  M   0        Biopsy      PREMIERE49 <NA>
+33 0            F   W        Biopsy      PREMIERE13 <NA>
+34 0            M   W        Biopsy      PREMIERE14 <NA>
+35 0            F   <NA>     Biopsy      PREMIERE15 <NA>
+36 0            F   W        Biopsy      PREMIERE27 <NA>
+37 0            M   Asian    Biopsy      PREMIERE18 <NA>
+38 0            F   W        Biopsy      PREMIERE19 <NA>
+39 0            F   0        Biopsy      PREMIERE20 <NA>
+40 0            F   AA       Biopsy      PREMIERE21 <NA>
+41 0            F   W        Biopsy      PREMIERE22 <NA>
+42 0            M   W        Biopsy      PREMIERE28 <NA>
+43 0            M   W        Biopsy      PREMIERE23 <NA>
+44 0            M   W        Biopsy      PREMIERE29 <NA>
+45 0            F   W        Biopsy      PREMIERE24 <NA>
+46 0            F   0        Biopsy      PREMIERE25 <NA>
+47 0            F   W, Other Biopsy      PREMIERE26 <NA>
+   age_note                        total_cells Neutrophil PTEC GEC PT 
+1  Not provided in public metadata 3711         28         27    1  64
+2  Not provided in public metadata 1154          2         79   13  61
+3  Not provided in public metadata  996          3          2    4  25
+4  Not provided in public metadata 3288         45         38   36  53
+5  Not provided in public metadata 2712         22         98   50  44
+6  Not provided in public metadata 1559         27         72   30  54
+7  Not provided in public metadata 4792         99         51   18 238
+8  Not provided in public metadata 6630         26         63    2 311
+9  Not provided in public metadata  463          3         30    3  12
+10 Not provided in public metadata 4407        148        123   28 135
+11 Not provided in public metadata 2643          3          5    0   2
+12 Not provided in public metadata 3422          1         56   21  80
+13 Not provided in public metadata 1135          7         90   24 143
+14 Not provided in public metadata 1510          5        154  102  90
+15 Not provided in public metadata 1820          1         76   96 256
+16 Not provided in public metadata 1725          1        111  121 991
+17 Not provided in public metadata  585          4         82   15  58
+18 Not provided in public metadata  756          9         28   18  16
+19 Not provided in public metadata 1143          0        102    9 152
+20 Not provided in public metadata  721          0         92   16  50
+21 Not provided in public metadata 1415          1         83   26 144
+22 Not provided in public metadata  854          5         81   55  31
+23 Not provided in public metadata  854          1         33   23  29
+24 Not provided in public metadata 1352          8        144   76 117
+25 Not provided in public metadata 1053          3         57   32 182
+26 Not provided in public metadata 1188          1         64   32 225
+27 Not provided in public metadata  750          0         23   33  91
+28 Not provided in public metadata  520          2         38    0   9
+29 Not provided in public metadata  971          0         23    7  69
+30 Not provided in public metadata  975          0         81   88  30
+31 Not provided in public metadata  983          1         63   64 193
+32 Not provided in public metadata 1340          1         64   58 211
+33 Not provided in public metadata 4092          7         23    0 107
+34 Not provided in public metadata  213          0          1    0  39
+35 Not provided in public metadata 9515         20        177  198 665
+36 Not provided in public metadata 1776          7          6    0   0
+37 Not provided in public metadata 4243         10         82   27  25
+38 Not provided in public metadata 2699         24         72   42  43
+39 Not provided in public metadata 6251         65        429  150 207
+40 Not provided in public metadata 2924         32        111   67 326
+41 Not provided in public metadata 4138         26         85   26 804
+42 Not provided in public metadata 5009          3         18    9 137
+43 Not provided in public metadata  970          4         11    3  42
+44 Not provided in public metadata 2453         13        123   97 150
+45 Not provided in public metadata 2240         33         52   14 364
+46 Not provided in public metadata 4682          8        230    0  59
+47 Not provided in public metadata 1109          0         34    0  32
+
+=== sessionInfo ===
+R version 4.6.2 (2026-10-29)
+Platform: x86_64-pc-linux-gnu
+Running under: Ubuntu 22.04.5 LTS
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/openblas-pthread/libblas.so.3 
+LAPACK: /usr/lib/x86_64-linux-gnu/openblas-pthread/libopenblasp-r0.3.20.so;  LAPACK version 3.10.0
+
+locale:
+[1] C
+
+time zone: Asia/Shanghai
+tzcode source: system (glibc)
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] tidyr_1.3.2         dplyr_1.2.1         data.table_1.18.6.1
+
+loaded via a namespace (and not attached):
+ [1] R6_2.6.1          tidyselect_1.2.1  magrittr_2.0.5    glue_1.8.1       
+ [5] tibble_3.3.1      R.utils_2.13.0    pkgconfig_2.0.3   generics_0.1.4   
+ [9] lifecycle_1.0.5   cli_3.6.6         R.methodsS3_1.8.2 vctrs_0.7.3      
+[13] withr_3.0.3       compiler_4.6.2    R.oo_1.27.1       purrr_1.2.2      
+[17] pillar_1.11.1     rlang_1.3.0      

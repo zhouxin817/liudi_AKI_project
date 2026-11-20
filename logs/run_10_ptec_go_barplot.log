@@ -1,0 +1,14 @@
+/bin/sed: /home/zhouxin/.trae-cn-server/bin/stable-e9a230d57e18d2277818242552b82a145ef27ba0-debian10/modules/ai-agent/libselinux.so.1: no version information available (required by /bin/sed)
+/bin/sed: /home/zhouxin/.trae-cn-server/bin/stable-e9a230d57e18d2277818242552b82a145ef27ba0-debian10/modules/ai-agent/libselinux.so.1: no version information available (required by /bin/sed)
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+Warning message:
+Vectorized input to `element_text()` is not officially supported.
+i Results may be unexpected or may change in future versions of ggplot2. 
+>>> 10_ptec_go_barplot.R 完成

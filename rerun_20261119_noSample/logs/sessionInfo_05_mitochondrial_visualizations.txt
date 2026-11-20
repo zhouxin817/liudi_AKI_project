@@ -1,0 +1,114 @@
+=== 05_mitochondrial_visualizations.R ===
+[1] "2026-11-19 14:24:34 CST"
+
+=== PTEC 细胞数 ===
+
+CTRL  AKI 
+ 616  517 
+
+=== ATP 词条基因拆解 ===
+       GO_ID                                                GO_Term   direction
+1 GO:0015986               proton motive force-driven ATP synthesis Down_in_AKI
+2 GO:0015986               proton motive force-driven ATP synthesis   Up_in_AKI
+3 GO:0042776 proton motive force-driven mitochondrial ATP synthesis Down_in_AKI
+4 GO:0042776 proton motive force-driven mitochondrial ATP synthesis   Up_in_AKI
+              encoding  n
+1 Mitochondrial genome  7
+2       Nuclear genome 19
+3 Mitochondrial genome  7
+4       Nuclear genome 15
+
+=== 模块基因数 ===
+    ATP synthase (Complex V)                    Complex I 
+                         119                           60 
+                 Complex III                   Complex IV 
+                          12                           31 
+   Mitochondrial translation         Mitochondrial fusion 
+                         142                           32 
+       Mitochondrial fission                    Mitophagy 
+                          36                           94 
+Response to oxidative stress 
+                         383 
+
+=== 模块 Wilcoxon P ===
+# A tibble: 9 x 4
+  module                              p lab       sig  
+  <fct>                           <dbl> <chr>     <chr>
+1 ATP synthase (Complex V)     6.61e-13 P=6.6e-13 ***  
+2 Complex I                    0        P=0.0e+00 ***  
+3 Complex III                  3.71e- 2 P=0.04    *    
+4 Complex IV                   8.88e-16 P=8.9e-16 ***  
+5 Mitochondrial translation    2.83e- 3 P=0.00    **   
+6 Mitochondrial fusion         7.08e- 1 P=0.71    ns   
+7 Mitochondrial fission        1.74e- 1 P=0.17    ns   
+8 Mitophagy                    2.25e- 6 P=2.2e-06 ***  
+9 Response to oxidative stress 1.51e- 1 P=0.15    ns   
+
+=== 热图基因模块分布 ===
+
+       ATP synthase           Complex I         Complex III          Complex IV 
+                 25                   7                   3                   3 
+   Mito translation              Fusion             Fission           Mitophagy 
+                  6                   0                   0                   0 
+Other mitochondrial 
+                  6 
+
+=== sessionInfo ===
+R version 4.6.2 (2026-10-29)
+Platform: x86_64-pc-linux-gnu
+Running under: Ubuntu 22.04.5 LTS
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/openblas-pthread/libblas.so.3 
+LAPACK: /usr/lib/x86_64-linux-gnu/openblas-pthread/libopenblasp-r0.3.20.so;  LAPACK version 3.10.0
+
+locale:
+[1] C
+
+time zone: Asia/Shanghai
+tzcode source: system (glibc)
+
+attached base packages:
+[1] grid      stats4    stats     graphics  grDevices utils     datasets 
+[8] methods   base     
+
+other attached packages:
+ [1] patchwork_1.3.2       circlize_0.4.18       ComplexHeatmap_2.28.0
+ [4] stringr_1.6.0         ggplot2_4.0.4         tidyr_1.3.2          
+ [7] dplyr_1.2.1           GO.db_3.23.1          org.Hs.eg.db_3.23.1  
+[10] AnnotationDbi_1.74.0  IRanges_2.46.0        S4Vectors_0.50.3     
+[13] Biobase_2.72.0        BiocGenerics_0.58.1   generics_0.1.4       
+[16] Seurat_6.0.0.9000     SeuratObject_5.4.0    sp_2.2-4             
+
+loaded via a namespace (and not attached):
+ [1] DBI_1.3.0           pbapply_1.7-5       gridExtra_2.3.1    
+ [4] rlang_1.3.0         magrittr_2.0.5      clue_0.3-68        
+ [7] GetoptLong_1.1.1    RcppAnnoy_0.0.23    otel_0.3.0         
+[10] matrixStats_1.5.0   ggridges_0.5.7      compiler_4.6.2     
+[13] RSQLite_3.53.3      png_0.1-9           systemfonts_1.3.2  
+[16] vctrs_0.7.3         reshape2_1.4.5      pkgconfig_2.0.3    
+[19] shape_1.4.6.1       crayon_1.5.3        fastmap_1.2.0      
+[22] magick_2.9.1        XVector_0.52.0      labeling_0.4.3     
+[25] utf8_1.2.6          ragg_1.5.2          purrr_1.2.2        
+[28] bit_4.6.0           cachem_1.1.0        jsonlite_2.0.0     
+[31] blob_1.3.0          irlba_2.4.1         parallel_4.6.2     
+[34] cluster_2.1.8.3     R6_2.6.1            ica_1.0-3          
+[37] stringi_1.8.9       RColorBrewer_1.1-3  parallelly_1.50.0  
+[40] scattermore_1.2     Rcpp_1.1.2          Seqinfo_1.2.0      
+[43] iterators_1.0.14    future.apply_1.21.0 sctransform_0.4.3  
+[46] Matrix_1.7-6        igraph_2.3.4        tidyselect_1.2.1   
+[49] doParallel_1.0.17   codetools_0.2-18    listenv_1.1.0      
+[52] lattice_0.20-45     tibble_3.3.1        plyr_1.8.9         
+[55] withr_3.0.3         KEGGREST_1.52.2     S7_0.2.2           
+[58] Rtsne_0.17          future_1.82.0       fastDummies_1.7.6  
+[61] Biostrings_2.80.2   pillar_1.11.1       KernSmooth_2.23-20 
+[64] foreach_1.5.2       RcppHNSW_0.7.0      scales_1.4.0       
+[67] globals_0.20.0      glue_1.8.1          tools_4.6.2        
+[70] RSpectra_0.16-2     RANN_2.6.3          dotCall64_1.2      
+[73] Cairo_1.7-0         cowplot_1.2.0       colorspace_2.1-4   
+[76] cli_3.6.6           textshaping_1.0.5   spam_2.11-4        
+[79] uwot_0.2.5          gtable_0.3.6        pls_2.9-0          
+[82] digest_0.6.39       progressr_1.1.0     ggrepel_0.9.8      
+[85] rjson_0.2.23        farver_2.1.2        memoise_2.0.1      
+[88] lifecycle_1.0.5     httr_1.4.9          GlobalOptions_0.1.4
+[91] bit64_4.8.6         MASS_7.3-66        

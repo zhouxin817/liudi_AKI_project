@@ -1,0 +1,6 @@
+"comparison","unit","n_CTRL","n_AKI","mean_CTRL","mean_AKI","p_value","direction"
+"Cell level: NETs score (7 genes)","cell",35,344,0.605241772555736,0.57417387244392,0.482641289254773,"Higher in CTRL"
+"Cell level: NETs score (6 genes, -S100A9)","cell",35,344,0.0243853514542154,0.0185759524958109,0.633399269162023,"Higher in CTRL"
+"Cell level: mean gene z-score (7 genes)","cell",35,344,0.0119590460425472,-0.00121676340549178,0.621911545339827,"Higher in CTRL"
+"Sample level: mean NETs score (7 genes)","sample",12,7,0.569947797055842,0.640089583849419,0.966293255500384,"Higher in AKI"
+"Sample level: mean NETs score (6 genes, -S100A9)","sample",12,7,-0.000713620709887141,0.0560777607391245,0.832662106350532,"Higher in AKI"

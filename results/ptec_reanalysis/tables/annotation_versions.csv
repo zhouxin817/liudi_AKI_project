@@ -1,0 +1,8 @@
+"package","version"
+"R","4.6.2"
+"org.Hs.eg.db","3.23.1"
+"GO.db","3.23.1"
+"clusterProfiler","4.20.3"
+"AnnotationDbi","1.74.0"
+"Seurat","6.0.0.9000"
+"SeuratObject","5.4.0"
